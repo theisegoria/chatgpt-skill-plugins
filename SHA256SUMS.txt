@@ -1,4 +1,4 @@
-b75f32fbf57ac5661288c397ade1fd13ccb6189fe58a2ac5d0c9913ed9fcea29  chatgpt-skill-plugins-0.1.0.zip
-f1f3b03aea6aaa6098d073c5afedc194305c513f722f8fdd9533f9994d37d65f  markchart-mermaid-0.1.0.zip
-0fbc0c45c7429e402665e625ebc7d933360078d25f566029ac28129d5d54bbdf  system-modeler-projects-0.1.0.zip
-5d1d2584b05eb734a48bd3d3aa55fa785657cedbe5343b120d2e88396981f3d3  wolfram-notebooks-0.1.0.zip
+b90a7abedf6a10204c8cf53612c6884459e34612965eb16378542d66c078f32f  chatgpt-skill-plugins-0.1.1.zip
+ad935dbaaabe28f0f6d1754c5da31449a32c14a5bdfdb5d0235fa9db6ac30dbe  markchart-mermaid-0.1.1.zip
+d002b64938fcb410450e5fcac6abb5cc48b5a7b881ff33d6c18e8964aedb8b54  system-modeler-projects-0.1.1.zip
+7536e83824c4f711a19e887034b70b67d98d38264940edb4e5a5b28febe17bba  wolfram-notebooks-0.1.1.zip

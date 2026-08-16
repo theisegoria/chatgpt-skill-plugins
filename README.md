@@ -10,11 +10,11 @@ The development source, tests, and Git history are intentionally not published h
 
 ## Install the collection
 
-1. Download and extract `chatgpt-skill-plugins-0.1.0.zip` from the release.
+1. Download and extract `chatgpt-skill-plugins-0.1.1.zip` from the release.
 2. Add the extracted directory as a local marketplace:
 
    ```bash
-   codex plugin marketplace add /absolute/path/to/chatgpt-skill-plugins-0.1.0
+   codex plugin marketplace add /absolute/path/to/chatgpt-skill-plugins-0.1.1
    ```
 
 3. Install one or more plugins:

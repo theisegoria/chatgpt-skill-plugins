@@ -3,18 +3,18 @@
 Artifact-only releases of three skill-first plugins for ChatGPT and Codex:
 
 - **Wolfram Notebooks** creates structured Wolfram/Mathematica `.nb` notebooks.
-- **MarkChart Mermaid** creates and statically validates MarkChart-ready Mermaid source.
-- **System Modeler Projects** creates structured Modelica packages and includes Wolfram Research's official System Modeler AI toolkit.
+- **MarkChart Mermaid** creates and validates MarkChart-ready Mermaid source.
+- **System Modeler Projects** creates structured Modelica packages and includes the redistributable portions of Wolfram Research's official System Modeler AI toolkit.
 
-The development source, tests, and Git history are intentionally not published here. Installable runtime files are distributed as ZIP assets on the [latest release](https://github.com/theisegoria/chatgpt-skill-plugins/releases/latest).
+The development repository, tests, and Git history are intentionally not published here. Installable runtime files are distributed as ZIP assets on the [latest release](https://github.com/theisegoria/chatgpt-skill-plugins/releases/latest).
 
-## Install the collection
+## Install version 0.1.2
 
-1. Download and extract `chatgpt-skill-plugins-0.1.1.zip` from the release.
+1. Download and extract `chatgpt-skill-plugins-0.1.2.zip` from the release.
 2. Add the extracted directory as a local marketplace:
 
    ```bash
-   codex plugin marketplace add /absolute/path/to/chatgpt-skill-plugins-0.1.1
+   codex plugin marketplace add /absolute/path/to/chatgpt-skill-plugins-0.1.2
    ```
 
 3. Install one or more plugins:
@@ -29,8 +29,8 @@ The development source, tests, and Git history are intentionally not published h
 
 ## Integrity and validation
 
-Release assets include `SHA256SUMS.txt` and `release-manifest.json`. The archives are deterministic, path-safe, CRC-checked, schema-validated, and compared against the committed private build inputs before publication.
+Release assets include `SHA256SUMS.txt` and `release-manifest.json`. The archives are deterministic, path-safe, CRC-checked, schema-validated, and checked again after extraction. Full Modelica compilation and simulation require Wolfram System Modeler. MarkChart rendering requires its one-time command-line folder grant.
 
-The Wolfram notebook and Modelica generators have offline structural validation. Full notebook import/evaluation and Modelica compilation/simulation require Wolfram products. MarkChart CLI rendering requires MarkChart's one-time command-line folder grant.
+## License
 
-No license has been selected for the original plugin material. Bundled third-party material retains its own license and attribution.
+Original material is licensed under Apache License 2.0. Bundled third-party material retains its own terms; see `NOTICE` and the notices inside each plugin. Wolfram System Modeler documentation excerpts are not included in public artifacts pending explicit downstream redistribution permission.

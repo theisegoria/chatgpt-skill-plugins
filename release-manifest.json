@@ -1,0 +1,42 @@
+{
+  "release": "0.1.0",
+  "sourceCommit": "0489dac772104b6e983098cd052db437e1d2d242",
+  "marketplace": "ben-chatgpt-apps",
+  "plugins": [
+    {
+      "name": "markchart-mermaid",
+      "version": "0.1.0"
+    },
+    {
+      "name": "system-modeler-projects",
+      "version": "0.1.0"
+    },
+    {
+      "name": "wolfram-notebooks",
+      "version": "0.1.0"
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "chatgpt-skill-plugins-0.1.0.zip",
+      "sha256": "b75f32fbf57ac5661288c397ade1fd13ccb6189fe58a2ac5d0c9913ed9fcea29",
+      "bytes": 1978689
+    },
+    {
+      "file": "markchart-mermaid-0.1.0.zip",
+      "sha256": "f1f3b03aea6aaa6098d073c5afedc194305c513f722f8fdd9533f9994d37d65f",
+      "bytes": 5861
+    },
+    {
+      "file": "system-modeler-projects-0.1.0.zip",
+      "sha256": "0fbc0c45c7429e402665e625ebc7d933360078d25f566029ac28129d5d54bbdf",
+      "bytes": 1959674
+    },
+    {
+      "file": "wolfram-notebooks-0.1.0.zip",
+      "sha256": "5d1d2584b05eb734a48bd3d3aa55fa785657cedbe5343b120d2e88396981f3d3",
+      "bytes": 6611
+    }
+  ],
+  "validationBoundary": "Archives passed deterministic ZIP integrity/path checks. Runtime-specific Wolfram and System Modeler validation requires those products."
+}

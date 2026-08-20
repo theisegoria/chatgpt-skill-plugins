@@ -1,6 +1,6 @@
 {
-  "release": "0.1.2",
-  "sourceCommit": "656e901912f16d312dea2e6b0b64e33af5cda369",
+  "release": "0.2.0",
+  "sourceCommit": "dfcee7b1289c1539f7b01b9a9a9123b265911a32",
   "marketplace": "ben-chatgpt-apps",
   "license": "Apache-2.0 for original material; bundled third-party terms preserved",
   "excludedThirdPartyContent": [
@@ -12,38 +12,47 @@
   "plugins": [
     {
       "name": "markchart-mermaid",
-      "version": "0.1.2"
+      "version": "0.2.0"
+    },
+    {
+      "name": "mindnode-mindmaps",
+      "version": "0.2.0"
     },
     {
       "name": "system-modeler-projects",
-      "version": "0.1.2"
+      "version": "0.2.0"
     },
     {
       "name": "wolfram-notebooks",
-      "version": "0.1.2"
+      "version": "0.2.0"
     }
   ],
   "artifacts": [
     {
-      "file": "chatgpt-skill-plugins-0.1.2.zip",
-      "sha256": "d5f74e86c94c1007da6f195b65c0722ba11e3c6b2c3ef8c813cb12c5286e3220",
-      "bytes": 2603292
+      "file": "chatgpt-skill-plugins-0.2.0.zip",
+      "sha256": "672bc3cffc80a42ab0b374f31ec6c6beebc9b81ee2fa9735983daa8a66da491d",
+      "bytes": 2833732
     },
     {
-      "file": "markchart-mermaid-0.1.2.zip",
-      "sha256": "577f7896e6c0a4798f33c62882d91a317fb893c09cd031799074edf3ba0aa6a2",
-      "bytes": 269596
+      "file": "markchart-mermaid-0.2.0.zip",
+      "sha256": "4e18a7b2a755997b8eb8b73e42b6966c5fb9d99a334af0c1ba7078984c209adb",
+      "bytes": 271819
     },
     {
-      "file": "system-modeler-projects-0.1.2.zip",
-      "sha256": "b6cfb2182631200fb3baa8f59128447d257ec1667923932df34f87099c7d4771",
-      "bytes": 2052528
+      "file": "mindnode-mindmaps-0.2.0.zip",
+      "sha256": "e6a485591b42679a2872b489e0bfbac07cce6611fe04acf98732ecf3d6824473",
+      "bytes": 234263
     },
     {
-      "file": "wolfram-notebooks-0.1.2.zip",
-      "sha256": "91c2846d70944f302ebcfd8f59fee38b0fbf1b9d671ef2a70dfba568d798c7ff",
-      "bytes": 283809
+      "file": "system-modeler-projects-0.2.0.zip",
+      "sha256": "d9f1ee2f6a1521efe7aa95d66c1331508ee5b4aca8d4b3697e54932b5745a804",
+      "bytes": 2054779
+    },
+    {
+      "file": "wolfram-notebooks-0.2.0.zip",
+      "sha256": "5c9311c3e89fc96e1ec498173675bdd52e90d1fea1665f2036cc70894a8335a3",
+      "bytes": 286028
     }
   ],
-  "validationBoundary": "Archives passed deterministic ZIP integrity/path checks plus offline plugin validation. Wolfram notebook import/evaluation and Modelica compilation or simulation require their Wolfram runtimes. Native MarkChart rendering requires MarkChart's one-time command-line folder grant."
+  "validationBoundary": "Archives passed deterministic ZIP integrity/path checks plus offline plugin validation. Wolfram notebook import/evaluation and Modelica compilation or simulation require their Wolfram runtimes. Native MarkChart rendering requires MarkChart's one-time command-line folder grant. MindNode output is validated as portable Markdown and OPML; native library import is a separate user action."
 }

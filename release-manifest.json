@@ -1,55 +1,55 @@
 {
-  "release": "0.3.0",
-  "sourceCommit": "070ddf75b41df69e4c4aac508280b5dcfd38fbd6",
+  "release": "1.0.0",
+  "sourceCommit": "68cb1d37b733f5e75509ebe78a1645edc983278b",
   "marketplace": "ben-chatgpt-apps",
   "license": "Apache-2.0",
   "python": "3.14.6",
-  "contractVersion": "0.3",
+  "contractVersion": "1",
   "plugins": [
     {
       "name": "mermaid-diagrams",
-      "version": "0.3.0"
+      "version": "1.0.0"
     },
     {
       "name": "modelica-projects",
-      "version": "0.3.0"
+      "version": "1.0.0"
     },
     {
       "name": "portable-mindmaps",
-      "version": "0.3.0"
+      "version": "1.0.0"
     }
   ],
   "artifacts": [
     {
-      "file": "chatgpt-skill-plugins-0.3.0.zip",
-      "sha256": "4b2835e12ff04e465b598716e2b0663b419c5d063eaa032cf61075153bff92ac",
-      "bytes": 785745
+      "file": "chatgpt-skill-plugins-1.0.0.zip",
+      "sha256": "bd2d67f1772fc144a0ad99693f77b1352478b056ba569d3e9fc2ac1768e61243",
+      "bytes": 786105
     },
     {
-      "file": "mermaid-diagrams-0.3.0.zip",
-      "sha256": "364f58df42d6b8c8988ce02df2732273290c6d019c080c848cf718075fe6e6d6",
+      "file": "mermaid-diagrams-1.0.0.zip",
+      "sha256": "5514f7c6d3ab0943b1de890f79b9bcadb3b0f64f778632b909325e54d1a467b6",
       "bytes": 274692
     },
     {
-      "file": "modelica-projects-0.3.0.zip",
-      "sha256": "633482fef76bf166c615eed6e917dab0685e29cf20e6fd8fd7a32d841f369115",
+      "file": "modelica-projects-1.0.0.zip",
+      "sha256": "66b001d3395c0fcc28874f6cde8c79e76f99cffe2db53f55f2f29d7376168830",
       "bytes": 290267
     },
     {
-      "file": "portable-mindmaps-0.3.0.zip",
-      "sha256": "5039eab1e1d45b994d078f81a8b6c475f3296b002a4a904237d9616bda8fca54",
-      "bytes": 236995
+      "file": "portable-mindmaps-1.0.0.zip",
+      "sha256": "6706714984a5995440ba58b9b75d5096b8f190207f905739b1d28345192fcf2c",
+      "bytes": 237355
     }
   ],
   "softwareInventory": [
     {
       "name": "mermaid-diagrams",
-      "version": "0.3.0",
+      "version": "1.0.0",
       "license": "Apache-2.0",
       "files": [
         {
           "path": ".codex-plugin/plugin.json",
-          "sha256": "929e3584c879be889d4aa805d1b4ce71fe95a9505c92bb11b74939eadd9e6e07",
+          "sha256": "16193bd9d3c16c46ebb71fe4461b3a99d90bda8e10b8dfcff553644a6f4f331b",
           "bytes": 1453
         },
         {
@@ -86,12 +86,12 @@
     },
     {
       "name": "modelica-projects",
-      "version": "0.3.0",
+      "version": "1.0.0",
       "license": "Apache-2.0",
       "files": [
         {
           "path": ".codex-plugin/plugin.json",
-          "sha256": "93644d7099062e382e3148877f52de9428ad12a319b8320d41761c071c81bc9c",
+          "sha256": "de6ab8da05d7d3cfe3387b432954c9b4530533e78005bc68ef46bc344125b502",
           "bytes": 1533
         },
         {
@@ -128,12 +128,12 @@
     },
     {
       "name": "portable-mindmaps",
-      "version": "0.3.0",
+      "version": "1.0.0",
       "license": "Apache-2.0",
       "files": [
         {
           "path": ".codex-plugin/plugin.json",
-          "sha256": "acc2690cf00d8361cbda246753c7814984255b18bf37285f5ea77adec2b695ce",
+          "sha256": "8af335bddadb1e49b9525be7532aec2f21a01f4f1844575725ddab727ee4ec52",
           "bytes": 1470
         },
         {
@@ -163,8 +163,8 @@
         },
         {
           "path": "skills/portable-mindmaps/scripts/create_mindmap.py",
-          "sha256": "c2da67468c2563bb8cd7e27b69c437240c89e5cbcbcd94f3019e69b5e271f8e5",
-          "bytes": 14062
+          "sha256": "d0758be7749fe8bc2d909ecffe6b9e6aa335bac168f47b9d87ed222e8b4c5055",
+          "bytes": 15634
         }
       ]
     }

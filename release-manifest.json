@@ -1,58 +1,173 @@
 {
-  "release": "0.2.0",
-  "sourceCommit": "dfcee7b1289c1539f7b01b9a9a9123b265911a32",
+  "release": "0.3.0",
+  "sourceCommit": "070ddf75b41df69e4c4aac508280b5dcfd38fbd6",
   "marketplace": "ben-chatgpt-apps",
-  "license": "Apache-2.0 for original material; bundled third-party terms preserved",
-  "excludedThirdPartyContent": [
-    {
-      "file": "system-modeler-projects/skills/search-modelica-docs/docsearch/data/docs.json",
-      "reason": "Wolfram documentation excerpts are outside the toolkit's MIT grant; public redistribution is withheld pending explicit downstream permission"
-    }
-  ],
+  "license": "Apache-2.0",
+  "python": "3.14.6",
+  "contractVersion": "0.3",
   "plugins": [
     {
-      "name": "markchart-mermaid",
-      "version": "0.2.0"
+      "name": "mermaid-diagrams",
+      "version": "0.3.0"
     },
     {
-      "name": "mindnode-mindmaps",
-      "version": "0.2.0"
+      "name": "modelica-projects",
+      "version": "0.3.0"
     },
     {
-      "name": "system-modeler-projects",
-      "version": "0.2.0"
-    },
-    {
-      "name": "wolfram-notebooks",
-      "version": "0.2.0"
+      "name": "portable-mindmaps",
+      "version": "0.3.0"
     }
   ],
   "artifacts": [
     {
-      "file": "chatgpt-skill-plugins-0.2.0.zip",
-      "sha256": "672bc3cffc80a42ab0b374f31ec6c6beebc9b81ee2fa9735983daa8a66da491d",
-      "bytes": 2833732
+      "file": "chatgpt-skill-plugins-0.3.0.zip",
+      "sha256": "4b2835e12ff04e465b598716e2b0663b419c5d063eaa032cf61075153bff92ac",
+      "bytes": 785745
     },
     {
-      "file": "markchart-mermaid-0.2.0.zip",
-      "sha256": "4e18a7b2a755997b8eb8b73e42b6966c5fb9d99a334af0c1ba7078984c209adb",
-      "bytes": 271819
+      "file": "mermaid-diagrams-0.3.0.zip",
+      "sha256": "364f58df42d6b8c8988ce02df2732273290c6d019c080c848cf718075fe6e6d6",
+      "bytes": 274692
     },
     {
-      "file": "mindnode-mindmaps-0.2.0.zip",
-      "sha256": "e6a485591b42679a2872b489e0bfbac07cce6611fe04acf98732ecf3d6824473",
-      "bytes": 234263
+      "file": "modelica-projects-0.3.0.zip",
+      "sha256": "633482fef76bf166c615eed6e917dab0685e29cf20e6fd8fd7a32d841f369115",
+      "bytes": 290267
     },
     {
-      "file": "system-modeler-projects-0.2.0.zip",
-      "sha256": "d9f1ee2f6a1521efe7aa95d66c1331508ee5b4aca8d4b3697e54932b5745a804",
-      "bytes": 2054779
-    },
-    {
-      "file": "wolfram-notebooks-0.2.0.zip",
-      "sha256": "5c9311c3e89fc96e1ec498173675bdd52e90d1fea1665f2036cc70894a8335a3",
-      "bytes": 286028
+      "file": "portable-mindmaps-0.3.0.zip",
+      "sha256": "5039eab1e1d45b994d078f81a8b6c475f3296b002a4a904237d9616bda8fca54",
+      "bytes": 236995
     }
   ],
-  "validationBoundary": "Archives passed deterministic ZIP integrity/path checks plus offline plugin validation. Wolfram notebook import/evaluation and Modelica compilation or simulation require their Wolfram runtimes. Native MarkChart rendering requires MarkChart's one-time command-line folder grant. MindNode output is validated as portable Markdown and OPML; native library import is a separate user action."
+  "softwareInventory": [
+    {
+      "name": "mermaid-diagrams",
+      "version": "0.3.0",
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "path": ".codex-plugin/plugin.json",
+          "sha256": "929e3584c879be889d4aa805d1b4ce71fe95a9505c92bb11b74939eadd9e6e07",
+          "bytes": 1453
+        },
+        {
+          "path": "assets/icon.png",
+          "sha256": "205126d6c7a8573d0b10d5fea38201bc80e6e0dc85c0a938beb60e3c7aab1070",
+          "bytes": 258092
+        },
+        {
+          "path": "skills/mermaid-diagrams/SKILL.md",
+          "sha256": "c72ca5c5fb4e3880aff1e1e8f7a66e49522d5d2ebb5a36b5b70a30f8f0456db6",
+          "bytes": 2415
+        },
+        {
+          "path": "skills/mermaid-diagrams/agents/openai.yaml",
+          "sha256": "4f39fe3289e07fda9056a8ad2cd40174c98c5648d431b18f08e4dc1d4d7b6704",
+          "bytes": 193
+        },
+        {
+          "path": "skills/mermaid-diagrams/references/diagram-selection.md",
+          "sha256": "5f02f18fbde217cff2d98e98e07b1e524f08724afeb9a494a9c6b7d8abff8b6c",
+          "bytes": 1761
+        },
+        {
+          "path": "skills/mermaid-diagrams/scripts/create_mermaid.py",
+          "sha256": "825f63045635ee841f01ff34dc0ac5b3d14ea7ec5725b0ce7f88aadddf3f5989",
+          "bytes": 4734
+        },
+        {
+          "path": "skills/mermaid-diagrams/scripts/validate_mermaid.py",
+          "sha256": "e9ec2c32cd5496fe1dba08d7642402992a2d11e173b825e376e4d045878795ff",
+          "bytes": 5501
+        }
+      ]
+    },
+    {
+      "name": "modelica-projects",
+      "version": "0.3.0",
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "path": ".codex-plugin/plugin.json",
+          "sha256": "93644d7099062e382e3148877f52de9428ad12a319b8320d41761c071c81bc9c",
+          "bytes": 1533
+        },
+        {
+          "path": "assets/icon.png",
+          "sha256": "c79aded31fb315c1971fa7d8c740ce5b03d84d8ebab20c9fb3472ae835491727",
+          "bytes": 270500
+        },
+        {
+          "path": "skills/modelica-projects/SKILL.md",
+          "sha256": "6c3bf5b8eac78862edcd04de71d1dd61b129234be6d87e0cfa18112fed815b02",
+          "bytes": 3218
+        },
+        {
+          "path": "skills/modelica-projects/agents/openai.yaml",
+          "sha256": "e165234e8cbec2aa02fa4889c9e2b23984fe6a1d35643c1c4bff6823e7383d7f",
+          "bytes": 221
+        },
+        {
+          "path": "skills/modelica-projects/references/project-contract.md",
+          "sha256": "25c05915618f3b66d9023a4e222e7000e2550fdea0d7105d8bebe4ed064f05a2",
+          "bytes": 2356
+        },
+        {
+          "path": "skills/modelica-projects/scripts/create_modelica_project.py",
+          "sha256": "815fd957e3f38f47d6cec6cbeff4bc0d4ed7ef11f9f5e400ac0003deaeb233a3",
+          "bytes": 8748
+        },
+        {
+          "path": "skills/modelica-projects/scripts/static_check_modelica.py",
+          "sha256": "e530fbc7e191088524ae2b131b2fefd8fb70086b771ba8be2054a407d98ddf16",
+          "bytes": 11195
+        }
+      ]
+    },
+    {
+      "name": "portable-mindmaps",
+      "version": "0.3.0",
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "path": ".codex-plugin/plugin.json",
+          "sha256": "acc2690cf00d8361cbda246753c7814984255b18bf37285f5ea77adec2b695ce",
+          "bytes": 1470
+        },
+        {
+          "path": "assets/icon.png",
+          "sha256": "1c9b3cc8d12a304891b04d9129fce99d5e430bea42f38e4bf51ce2e33eec695b",
+          "bytes": 219679
+        },
+        {
+          "path": "skills/portable-mindmaps/SKILL.md",
+          "sha256": "313576a80347c7180dff2cd66cec531c92d9762a34db61af9f24cfc06e8ab5a0",
+          "bytes": 1888
+        },
+        {
+          "path": "skills/portable-mindmaps/agents/openai.yaml",
+          "sha256": "19b1412b41d6460270421fb75aa0f52d4c6b078a123f7aeb33e7c48d6d23f4aa",
+          "bytes": 196
+        },
+        {
+          "path": "skills/portable-mindmaps/references/format-compatibility.md",
+          "sha256": "ef4c1febdfe2eb8fb09089bb59d8ee5a9c2165a7eec4ef64d2f0f7387c676c01",
+          "bytes": 974
+        },
+        {
+          "path": "skills/portable-mindmaps/references/mindmap-contract.md",
+          "sha256": "2edc393fa82ce4fbd2f06b79fc352a734f3ae7f71e8f9d639bfe2a8ff9c48bc2",
+          "bytes": 1136
+        },
+        {
+          "path": "skills/portable-mindmaps/scripts/create_mindmap.py",
+          "sha256": "c2da67468c2563bb8cd7e27b69c437240c89e5cbcbcd94f3019e69b5e271f8e5",
+          "bytes": 14062
+        }
+      ]
+    }
+  ],
+  "validationBoundary": "Archives passed deterministic ZIP integrity and path checks plus offline plugin validation. Mermaid source validation does not prove rendering. Modelica static checks do not prove compilation, simulation, numerical correctness, or physical validity. Mind-map validation does not prove import fidelity in any application."
 }

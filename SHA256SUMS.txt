@@ -1,5 +1,4 @@
-672bc3cffc80a42ab0b374f31ec6c6beebc9b81ee2fa9735983daa8a66da491d  chatgpt-skill-plugins-0.2.0.zip
-4e18a7b2a755997b8eb8b73e42b6966c5fb9d99a334af0c1ba7078984c209adb  markchart-mermaid-0.2.0.zip
-e6a485591b42679a2872b489e0bfbac07cce6611fe04acf98732ecf3d6824473  mindnode-mindmaps-0.2.0.zip
-d9f1ee2f6a1521efe7aa95d66c1331508ee5b4aca8d4b3697e54932b5745a804  system-modeler-projects-0.2.0.zip
-5c9311c3e89fc96e1ec498173675bdd52e90d1fea1665f2036cc70894a8335a3  wolfram-notebooks-0.2.0.zip
+4b2835e12ff04e465b598716e2b0663b419c5d063eaa032cf61075153bff92ac  chatgpt-skill-plugins-0.3.0.zip
+364f58df42d6b8c8988ce02df2732273290c6d019c080c848cf718075fe6e6d6  mermaid-diagrams-0.3.0.zip
+633482fef76bf166c615eed6e917dab0685e29cf20e6fd8fd7a32d841f369115  modelica-projects-0.3.0.zip
+5039eab1e1d45b994d078f81a8b6c475f3296b002a4a904237d9616bda8fca54  portable-mindmaps-0.3.0.zip

@@ -1,17 +1,13 @@
-ChatGPT Scientific Plugins
+Open-Format ChatGPT Skill Plugins
 Copyright 2026 Benjamin Haire
 
-This product includes software and documentation developed by third parties.
-Those materials are not relicensed under Apache License 2.0 and remain subject
-to the notices and license files shipped with the relevant plugin, including:
+Original material is licensed under Apache License 2.0.
 
-- Wolfram Research system-modeler-ai-toolkit material under the MIT License.
-- Modelica Language Specification excerpts under CC BY-SA 4.0.
-- Modelica Standard Library material under the BSD 3-Clause License.
-- Wolfram System Modeler documentation excerpts under Wolfram Research
-  copyright; see the System Modeler plugin's third-party notices.
+Mermaid is a project and format maintained by its respective contributors.
+Modelica is a registered trademark of the Modelica Association.
+FreeMind is a project and file format maintained by its respective contributors.
+ChatGPT, Codex, and OpenAI are names of their respective owner.
 
-Wolfram, Wolfram System Modeler, and Mathematica are trademarks or registered
-trademarks of Wolfram Research, Inc. Modelica is a registered trademark of the
-Modelica Association. Their use here identifies compatible products and source
-material and does not imply endorsement.
+These names identify formats or platforms that users may choose. Their use does
+not imply endorsement, certification, sponsorship, or affiliation. No third-party
+application code, documentation corpus, proprietary archive, or runtime is bundled.

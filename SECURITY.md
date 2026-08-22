@@ -2,7 +2,7 @@
 
 ## Supported versions
 
-The latest 1.x release receives security fixes. During migration, 0.3.x receives fixes until 1.0.0 is published. Withdrawn releases are unsupported.
+The latest 2.x release receives security fixes. Version 1.x remains supported during the v2 migration window. Withdrawn releases are unsupported.
 
 ## Reporting
 

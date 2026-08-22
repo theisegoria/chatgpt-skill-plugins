@@ -1,20 +1,20 @@
 # ChatGPT skill plugins
 
-Artifact-only releases of 3 skill-first plugins for ChatGPT and Codex:
+Artifact-only releases of 3 skills-only app plugins for ChatGPT and Codex, with matching standalone skill ZIPs:
 
-- **Mermaid Diagrams** — Create and validate portable Mermaid diagram source.
-- **Modelica Projects** — Create and statically validate portable, structured Modelica projects.
-- **Portable Mind Maps** — Create portable Markdown, OPML, and FreeMind mind maps.
+- **Mermaid Diagrams** — Author, convert, repair, validate, and optionally render portable Mermaid documents.
+- **Modelica Projects** — Create, visually annotate, import, repair, and statically validate portable Modelica projects.
+- **Portable Mind Maps** — Author, convert, merge, repair, and validate portable mind maps across open formats.
 
 The development repository, tests, and Git history are intentionally not published here. Installable runtime files are distributed as ZIP assets on the [latest release](https://github.com/theisegoria/chatgpt-skill-plugins/releases/latest).
 
-## Install version 1.0.0
+## Install version 2.0.0
 
-1. Download and extract `chatgpt-skill-plugins-1.0.0.zip` from the release.
+1. Download and extract `chatgpt-skill-plugins-2.0.0.zip` from the release.
 2. Add the extracted directory as a local marketplace:
 
    ```bash
-   codex plugin marketplace add /absolute/path/to/chatgpt-skill-plugins-1.0.0
+   codex plugin marketplace add /absolute/path/to/chatgpt-skill-plugins-2.0.0
    ```
 
 3. Install one or more plugins:
@@ -26,6 +26,8 @@ The development repository, tests, and Git history are intentionally not publish
    ```
 
 4. Restart the ChatGPT desktop app and begin a new task.
+
+Standalone skill ZIPs may instead be extracted so that their top-level skill folder lives under the user's Codex skills directory. Plugin and standalone distributions contain the same audited runtime skill files.
 
 ## Integrity and validation
 

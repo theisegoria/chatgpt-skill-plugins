@@ -1,4 +1,7 @@
-bd2d67f1772fc144a0ad99693f77b1352478b056ba569d3e9fc2ac1768e61243  chatgpt-skill-plugins-1.0.0.zip
-5514f7c6d3ab0943b1de890f79b9bcadb3b0f64f778632b909325e54d1a467b6  mermaid-diagrams-1.0.0.zip
-66b001d3395c0fcc28874f6cde8c79e76f99cffe2db53f55f2f29d7376168830  modelica-projects-1.0.0.zip
-6706714984a5995440ba58b9b75d5096b8f190207f905739b1d28345192fcf2c  portable-mindmaps-1.0.0.zip
+279588b442feacda75ff9e317dbfef7b0a69a757651d20906f9a4cef3e515bd2  chatgpt-skill-plugins-2.0.0.zip
+d31424f213cf28ccdf718d2cc1e092f628e5e801068780511d9f6d285816641b  mermaid-diagrams-2.0.0.zip
+f2bcd1877837eb9845764336b653162d2e6d0c5f1ffb0493fec7a3135a598e69  mermaid-diagrams-skill-2.0.0.zip
+061551c503858fbdd57a5a45b52e3fc32905a63bffa1baae131848edfeccac29  modelica-projects-2.0.0.zip
+63723d83ec47bcca95f719f0ded444d20f059707f9327ab0c30c560da4ca387e  modelica-projects-skill-2.0.0.zip
+22f7448cb9bf8cba305b2141f76148c8bdc3c2cd6d5777fc3732b7ea574f7efe  portable-mindmaps-2.0.0.zip
+4b5e11ad6030ba40932d33859b35ef3dccf2a34fa299c16f87a5d060fa76a6ba  portable-mindmaps-skill-2.0.0.zip

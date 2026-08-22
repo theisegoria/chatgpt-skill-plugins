@@ -1,56 +1,71 @@
 {
-  "release": "1.0.0",
-  "sourceCommit": "68cb1d37b733f5e75509ebe78a1645edc983278b",
+  "release": "2.0.0",
+  "sourceCommit": "9c7b8ae00b9b8ca2462031f80832e8fc0bfb0b78",
   "marketplace": "ben-chatgpt-apps",
   "license": "Apache-2.0",
   "python": "3.14.6",
-  "contractVersion": "1",
+  "contractVersion": "2",
   "plugins": [
     {
       "name": "mermaid-diagrams",
-      "version": "1.0.0"
+      "version": "2.0.0"
     },
     {
       "name": "modelica-projects",
-      "version": "1.0.0"
+      "version": "2.0.0"
     },
     {
       "name": "portable-mindmaps",
-      "version": "1.0.0"
+      "version": "2.0.0"
     }
   ],
   "artifacts": [
     {
-      "file": "chatgpt-skill-plugins-1.0.0.zip",
-      "sha256": "bd2d67f1772fc144a0ad99693f77b1352478b056ba569d3e9fc2ac1768e61243",
-      "bytes": 786105
+      "file": "chatgpt-skill-plugins-2.0.0.zip",
+      "sha256": "279588b442feacda75ff9e317dbfef7b0a69a757651d20906f9a4cef3e515bd2",
+      "bytes": 808626
     },
     {
-      "file": "mermaid-diagrams-1.0.0.zip",
-      "sha256": "5514f7c6d3ab0943b1de890f79b9bcadb3b0f64f778632b909325e54d1a467b6",
-      "bytes": 274692
+      "file": "mermaid-diagrams-2.0.0.zip",
+      "sha256": "d31424f213cf28ccdf718d2cc1e092f628e5e801068780511d9f6d285816641b",
+      "bytes": 281967
     },
     {
-      "file": "modelica-projects-1.0.0.zip",
-      "sha256": "66b001d3395c0fcc28874f6cde8c79e76f99cffe2db53f55f2f29d7376168830",
-      "bytes": 290267
+      "file": "mermaid-diagrams-skill-2.0.0.zip",
+      "sha256": "f2bcd1877837eb9845764336b653162d2e6d0c5f1ffb0493fec7a3135a598e69",
+      "bytes": 17114
     },
     {
-      "file": "portable-mindmaps-1.0.0.zip",
-      "sha256": "6706714984a5995440ba58b9b75d5096b8f190207f905739b1d28345192fcf2c",
-      "bytes": 237355
+      "file": "modelica-projects-2.0.0.zip",
+      "sha256": "061551c503858fbdd57a5a45b52e3fc32905a63bffa1baae131848edfeccac29",
+      "bytes": 298568
+    },
+    {
+      "file": "modelica-projects-skill-2.0.0.zip",
+      "sha256": "63723d83ec47bcca95f719f0ded444d20f059707f9327ab0c30c560da4ca387e",
+      "bytes": 21249
+    },
+    {
+      "file": "portable-mindmaps-2.0.0.zip",
+      "sha256": "22f7448cb9bf8cba305b2141f76148c8bdc3c2cd6d5777fc3732b7ea574f7efe",
+      "bytes": 245290
+    },
+    {
+      "file": "portable-mindmaps-skill-2.0.0.zip",
+      "sha256": "4b5e11ad6030ba40932d33859b35ef3dccf2a34fa299c16f87a5d060fa76a6ba",
+      "bytes": 18436
     }
   ],
   "softwareInventory": [
     {
       "name": "mermaid-diagrams",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "license": "Apache-2.0",
       "files": [
         {
           "path": ".codex-plugin/plugin.json",
-          "sha256": "16193bd9d3c16c46ebb71fe4461b3a99d90bda8e10b8dfcff553644a6f4f331b",
-          "bytes": 1453
+          "sha256": "713dd14e8d3f3e9a0d602a06345cad862a0876705b92faa87ed8766bcb142029",
+          "bytes": 1552
         },
         {
           "path": "assets/icon.png",
@@ -59,13 +74,13 @@
         },
         {
           "path": "skills/mermaid-diagrams/SKILL.md",
-          "sha256": "c72ca5c5fb4e3880aff1e1e8f7a66e49522d5d2ebb5a36b5b70a30f8f0456db6",
-          "bytes": 2415
+          "sha256": "ce68485f043af81d962bfcb5a2b33838d234b5cebf72f9ec56ebbd60805605cf",
+          "bytes": 1424
         },
         {
           "path": "skills/mermaid-diagrams/agents/openai.yaml",
-          "sha256": "4f39fe3289e07fda9056a8ad2cd40174c98c5648d431b18f08e4dc1d4d7b6704",
-          "bytes": 193
+          "sha256": "dd12763e7e2ed38ff622049172dd35dd0057c62500ac5826626830e77771c0fe",
+          "bytes": 197
         },
         {
           "path": "skills/mermaid-diagrams/references/diagram-selection.md",
@@ -73,9 +88,19 @@
           "bytes": 1761
         },
         {
+          "path": "skills/mermaid-diagrams/references/v2-contract.md",
+          "sha256": "d397ba9377b54338e2fd876a3e5eb9ab520c54eba985c112534d7359c593036a",
+          "bytes": 1024
+        },
+        {
           "path": "skills/mermaid-diagrams/scripts/create_mermaid.py",
-          "sha256": "825f63045635ee841f01ff34dc0ac5b3d14ea7ec5725b0ce7f88aadddf3f5989",
-          "bytes": 4734
+          "sha256": "f0945f5d6dc273de9d6344688b94ddca131579bde1e198dc4681a5e5d749b2d7",
+          "bytes": 5268
+        },
+        {
+          "path": "skills/mermaid-diagrams/scripts/mermaid_tool.py",
+          "sha256": "9a552f11a4fae321b6efb627f198f734dc57ee62a8fc8ac79d132b1b1d5582b4",
+          "bytes": 22365
         },
         {
           "path": "skills/mermaid-diagrams/scripts/validate_mermaid.py",
@@ -86,13 +111,13 @@
     },
     {
       "name": "modelica-projects",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "license": "Apache-2.0",
       "files": [
         {
           "path": ".codex-plugin/plugin.json",
-          "sha256": "de6ab8da05d7d3cfe3387b432954c9b4530533e78005bc68ef46bc344125b502",
-          "bytes": 1533
+          "sha256": "080f04e17fead0321747f7035aa78cac074cbbad39d0d5fd87854cace6a8350f",
+          "bytes": 1617
         },
         {
           "path": "assets/icon.png",
@@ -101,13 +126,13 @@
         },
         {
           "path": "skills/modelica-projects/SKILL.md",
-          "sha256": "6c3bf5b8eac78862edcd04de71d1dd61b129234be6d87e0cfa18112fed815b02",
-          "bytes": 3218
+          "sha256": "03d44079047fe21bf486e83ef595fa753c3a0d618e51ff16ae687a35f28f33fd",
+          "bytes": 1550
         },
         {
           "path": "skills/modelica-projects/agents/openai.yaml",
-          "sha256": "e165234e8cbec2aa02fa4889c9e2b23984fe6a1d35643c1c4bff6823e7383d7f",
-          "bytes": 221
+          "sha256": "29e765cfeddf58cbc9371fa12536df3b6b47b280dce029803261fd97fde22be7",
+          "bytes": 210
         },
         {
           "path": "skills/modelica-projects/references/project-contract.md",
@@ -115,9 +140,19 @@
           "bytes": 2356
         },
         {
+          "path": "skills/modelica-projects/references/v2-contract.md",
+          "sha256": "53c9b207b041e66dbb68b66df5e950f160bbc747d0a8da697e8cff697821c732",
+          "bytes": 1162
+        },
+        {
           "path": "skills/modelica-projects/scripts/create_modelica_project.py",
-          "sha256": "815fd957e3f38f47d6cec6cbeff4bc0d4ed7ef11f9f5e400ac0003deaeb233a3",
-          "bytes": 8748
+          "sha256": "2b0adab342e2a95797d08ab11c8bc29736bb20666e9c4f1df1d6901b50516f74",
+          "bytes": 9361
+        },
+        {
+          "path": "skills/modelica-projects/scripts/modelica_tool.py",
+          "sha256": "06d6458d31f84c303c9c87318805a8659283c81ad605799c510bd1b374763277",
+          "bytes": 24436
         },
         {
           "path": "skills/modelica-projects/scripts/static_check_modelica.py",
@@ -128,13 +163,13 @@
     },
     {
       "name": "portable-mindmaps",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "license": "Apache-2.0",
       "files": [
         {
           "path": ".codex-plugin/plugin.json",
-          "sha256": "8af335bddadb1e49b9525be7532aec2f21a01f4f1844575725ddab727ee4ec52",
-          "bytes": 1470
+          "sha256": "f2982961bc5cda08cf2dce72ae674a42b861c3b6fb97f0c1f08d971fad1bc3ad",
+          "bytes": 1574
         },
         {
           "path": "assets/icon.png",
@@ -143,13 +178,13 @@
         },
         {
           "path": "skills/portable-mindmaps/SKILL.md",
-          "sha256": "313576a80347c7180dff2cd66cec531c92d9762a34db61af9f24cfc06e8ab5a0",
-          "bytes": 1888
+          "sha256": "d5e4031023e1541eb53367143ff3933fa8a85dd500b6d2971dbdfec283222f89",
+          "bytes": 1366
         },
         {
           "path": "skills/portable-mindmaps/agents/openai.yaml",
-          "sha256": "19b1412b41d6460270421fb75aa0f52d4c6b078a123f7aeb33e7c48d6d23f4aa",
-          "bytes": 196
+          "sha256": "eda652b2b1ba3c9fa0863c5ba3f420e2bc8edba0c8495a21d316e199142411b6",
+          "bytes": 199
         },
         {
           "path": "skills/portable-mindmaps/references/format-compatibility.md",
@@ -162,9 +197,19 @@
           "bytes": 1136
         },
         {
+          "path": "skills/portable-mindmaps/references/v2-contract.md",
+          "sha256": "062325f5294991603b092887de34371095661bd0b539ee944f1ac920f6452642",
+          "bytes": 1037
+        },
+        {
           "path": "skills/portable-mindmaps/scripts/create_mindmap.py",
           "sha256": "d0758be7749fe8bc2d909ecffe6b9e6aa335bac168f47b9d87ed222e8b4c5055",
           "bytes": 15634
+        },
+        {
+          "path": "skills/portable-mindmaps/scripts/mindmap_tool.py",
+          "sha256": "dea6bff2077efdcce9f6f3a5b59291b652795fca0feed4470177838ee3f72565",
+          "bytes": 22425
         }
       ]
     }

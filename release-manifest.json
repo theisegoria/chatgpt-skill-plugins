@@ -1,6 +1,6 @@
 {
   "release": "2.0.0",
-  "sourceCommit": "9c7b8ae00b9b8ca2462031f80832e8fc0bfb0b78",
+  "sourceCommit": "a8124e701ca95ca9a420ef9f0a4734c251587ca4",
   "marketplace": "ben-chatgpt-apps",
   "license": "Apache-2.0",
   "python": "3.14.6",
@@ -22,13 +22,13 @@
   "artifacts": [
     {
       "file": "chatgpt-skill-plugins-2.0.0.zip",
-      "sha256": "279588b442feacda75ff9e317dbfef7b0a69a757651d20906f9a4cef3e515bd2",
-      "bytes": 808626
+      "sha256": "5ed04e1631d4fc3f5be20a256a9e4482b7d5e5ed302793f13409878b34d5b06b",
+      "bytes": 4397542
     },
     {
       "file": "mermaid-diagrams-2.0.0.zip",
-      "sha256": "d31424f213cf28ccdf718d2cc1e092f628e5e801068780511d9f6d285816641b",
-      "bytes": 281967
+      "sha256": "aebf30394a40ea85023471ec24e26460a8cf05f2a3f48f123df771128d0e4f33",
+      "bytes": 1427306
     },
     {
       "file": "mermaid-diagrams-skill-2.0.0.zip",
@@ -37,8 +37,8 @@
     },
     {
       "file": "modelica-projects-2.0.0.zip",
-      "sha256": "061551c503858fbdd57a5a45b52e3fc32905a63bffa1baae131848edfeccac29",
-      "bytes": 298568
+      "sha256": "c47ac24a86b95397c7c30bd0d7e1d314dccc755c4f3c61e3b02f1b2236f4cfa3",
+      "bytes": 1583979
     },
     {
       "file": "modelica-projects-skill-2.0.0.zip",
@@ -47,8 +47,8 @@
     },
     {
       "file": "portable-mindmaps-2.0.0.zip",
-      "sha256": "22f7448cb9bf8cba305b2141f76148c8bdc3c2cd6d5777fc3732b7ea574f7efe",
-      "bytes": 245290
+      "sha256": "f4148f71215a68aacfb58310fa6dd890ef67ceb8c0518e0ada0dd0bb7f06c359",
+      "bytes": 1403456
     },
     {
       "file": "portable-mindmaps-skill-2.0.0.zip",
@@ -69,8 +69,8 @@
         },
         {
           "path": "assets/icon.png",
-          "sha256": "205126d6c7a8573d0b10d5fea38201bc80e6e0dc85c0a938beb60e3c7aab1070",
-          "bytes": 258092
+          "sha256": "c7956967e1a8d25e71c33f3c30888948ff9ac0aec76a5b489c8227e246ef46fb",
+          "bytes": 1415373
         },
         {
           "path": "skills/mermaid-diagrams/SKILL.md",
@@ -121,8 +121,8 @@
         },
         {
           "path": "assets/icon.png",
-          "sha256": "c79aded31fb315c1971fa7d8c740ce5b03d84d8ebab20c9fb3472ae835491727",
-          "bytes": 270500
+          "sha256": "3e07cb418c92d94ad8ca1bc847a16401b1f0a6fe6850d49fc93791c16d72bdef",
+          "bytes": 1567817
         },
         {
           "path": "skills/modelica-projects/SKILL.md",
@@ -173,8 +173,8 @@
         },
         {
           "path": "assets/icon.png",
-          "sha256": "1c9b3cc8d12a304891b04d9129fce99d5e430bea42f38e4bf51ce2e33eec695b",
-          "bytes": 219679
+          "sha256": "bd24af64502b9f8cc640418d0836faa472145356ecaf7e3967aa4e88220d6818",
+          "bytes": 1391048
         },
         {
           "path": "skills/portable-mindmaps/SKILL.md",

@@ -8,13 +8,13 @@ Artifact-only releases of 3 skills-only app plugins for ChatGPT and Codex, with 
 
 The development repository, tests, and Git history are intentionally not published here. Installable runtime files are distributed as ZIP assets on the [latest release](https://github.com/theisegoria/chatgpt-skill-plugins/releases/latest).
 
-## Install version 2.0.0
+## Install version 2.0.1
 
-1. Download and extract `chatgpt-skill-plugins-2.0.0.zip` from the release.
+1. Download and extract `chatgpt-skill-plugins-2.0.1.zip` from the release.
 2. Add the extracted directory as a local marketplace:
 
    ```bash
-   codex plugin marketplace add /absolute/path/to/chatgpt-skill-plugins-2.0.0
+   codex plugin marketplace add /absolute/path/to/chatgpt-skill-plugins-2.0.1
    ```
 
 3. Install one or more plugins:

@@ -6,6 +6,8 @@ At version 1.0.0, each plugin's documented JSON schemas, command flags, output e
 
 Version 2.0.0 introduces new canonical document schemas and unified author/import/lint/repair/export CLIs. The v1 release remains available for consumers that require its frozen contracts; v2 files use an explicit root `version: 2` discriminator.
 
+Version 2.0.1 is a corrective release. It preserves the v2 schemas, commands, flags, default extensions, overwrite behavior, and ordinary valid-output shapes while tightening rejection of malformed or unsafe input. Python 3.11-3.13 are supported for this line; Python 3.14 is tested as forward-compatibility evidence but is not part of the supported matrix.
+
 - Major releases may make incompatible interface or output-structure changes.
 - Minor releases add backward-compatible formats, options, validations, or skills.
 - Patch releases correct behavior without breaking documented contracts.

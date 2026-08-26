@@ -1,70 +1,810 @@
 {
-  "release": "2.0.0",
-  "sourceCommit": "a8124e701ca95ca9a420ef9f0a4734c251587ca4",
+  "release": "2.0.1",
+  "sourceCommit": "3aa6f0e23021d260210dd14298e2d40b4674fb9a",
   "marketplace": "ben-chatgpt-apps",
   "license": "Apache-2.0",
   "python": "3.14.6",
+  "supportedPython": [
+    "3.11",
+    "3.12",
+    "3.13"
+  ],
+  "forwardCompatibilityEvidence": [
+    "3.14-local-macos"
+  ],
+  "linuxExecuted": false,
   "contractVersion": "2",
   "plugins": [
     {
       "name": "mermaid-diagrams",
-      "version": "2.0.0"
+      "version": "2.0.1"
     },
     {
       "name": "modelica-projects",
-      "version": "2.0.0"
+      "version": "2.0.1"
     },
     {
       "name": "portable-mindmaps",
-      "version": "2.0.0"
+      "version": "2.0.1"
     }
   ],
   "artifacts": [
     {
-      "file": "chatgpt-skill-plugins-2.0.0.zip",
-      "sha256": "5ed04e1631d4fc3f5be20a256a9e4482b7d5e5ed302793f13409878b34d5b06b",
-      "bytes": 4397542
+      "file": "chatgpt-skill-plugins-2.0.1.zip",
+      "sha256": "1b582bfaa89e78f7088b69aaeb54985c3499edb2024b31dca7c3a9554a6ec1ba",
+      "bytes": 4411706,
+      "license": "Apache-2.0",
+      "inventory": [
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/.agents/plugins/marketplace.json",
+          "sha256": "486b6a60da605ae9e46ee82098465f33a53f69dea427b98bfef971b46fa42995",
+          "bytes": 970,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/mermaid-diagrams/.codex-plugin/plugin.json",
+          "sha256": "5cbf27fbb114a131b9442b7e09e0abbdae36e403c46c98d97277c7078efe17fc",
+          "bytes": 1552,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/mermaid-diagrams/assets/icon.png",
+          "sha256": "c7956967e1a8d25e71c33f3c30888948ff9ac0aec76a5b489c8227e246ef46fb",
+          "bytes": 1415373,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/mermaid-diagrams/skills/mermaid-diagrams/SKILL.md",
+          "sha256": "9f2a884e0d9d4c5c7185d6fadcc9b1e4086bf0f783117cf0900e0f092811519c",
+          "bytes": 1803,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/mermaid-diagrams/skills/mermaid-diagrams/agents/openai.yaml",
+          "sha256": "dd12763e7e2ed38ff622049172dd35dd0057c62500ac5826626830e77771c0fe",
+          "bytes": 197,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/mermaid-diagrams/skills/mermaid-diagrams/references/diagram-selection.md",
+          "sha256": "3ddc6ebc0a9ed41fb11cc72e189606352a12738228896bf3c342aa00fcede8e6",
+          "bytes": 1894,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/mermaid-diagrams/skills/mermaid-diagrams/references/v2-contract.md",
+          "sha256": "3caa0438c0e253973843583dc04eea9989a245d538cb2c0ee60138791d57e0eb",
+          "bytes": 2244,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/mermaid-diagrams/skills/mermaid-diagrams/scripts/create_mermaid.py",
+          "sha256": "a05b62be667b42af94aa11e681dd4d390c4ec8a140fba74b1439d01a76bbb23f",
+          "bytes": 5998,
+          "mode": 493
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/mermaid-diagrams/skills/mermaid-diagrams/scripts/mermaid_tool.py",
+          "sha256": "3b274de817e1b0f3db86022e8aeb72a48e14310e05ea217d7ced9267f70adca7",
+          "bytes": 39715,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/mermaid-diagrams/skills/mermaid-diagrams/scripts/validate_mermaid.py",
+          "sha256": "14ad84b0d205b16a6a2d282021f5a7232df1e7ac6fcd8d439602275620ebd156",
+          "bytes": 19495,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/modelica-projects/.codex-plugin/plugin.json",
+          "sha256": "70e27d6a6d0ab29abb558d5ccc287d069a783e8be54ba0d1618f427b24aea962",
+          "bytes": 1631,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/modelica-projects/assets/icon.png",
+          "sha256": "3e07cb418c92d94ad8ca1bc847a16401b1f0a6fe6850d49fc93791c16d72bdef",
+          "bytes": 1567817,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/modelica-projects/skills/modelica-projects/SKILL.md",
+          "sha256": "0d4e618cc3b79f2bb07316d816f244c09fb78705c0f75f62405cff1064ac5c14",
+          "bytes": 1779,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/modelica-projects/skills/modelica-projects/agents/openai.yaml",
+          "sha256": "29e765cfeddf58cbc9371fa12536df3b6b47b280dce029803261fd97fde22be7",
+          "bytes": 210,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/modelica-projects/skills/modelica-projects/references/project-contract.md",
+          "sha256": "25c05915618f3b66d9023a4e222e7000e2550fdea0d7105d8bebe4ed064f05a2",
+          "bytes": 2356,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/modelica-projects/skills/modelica-projects/references/v2-contract.md",
+          "sha256": "df6b6d99dc9df8cfdb9f984ca7a7cac0e9d3ee42a6deb0efe28c858f32201401",
+          "bytes": 1359,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/modelica-projects/skills/modelica-projects/scripts/create_modelica_project.py",
+          "sha256": "b55cf4fc1ead07d0d0dc032d0b0ed91e5f5319cf6b96dc1f0a601564b5e842b3",
+          "bytes": 9703,
+          "mode": 493
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/modelica-projects/skills/modelica-projects/scripts/modelica_tool.py",
+          "sha256": "9f65cc397e05abd90dca0bfa9ee5fe3fef1899546241615a884425702ef04b1a",
+          "bytes": 38219,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/modelica-projects/skills/modelica-projects/scripts/static_check_modelica.py",
+          "sha256": "725bf50bb7785d5033ab672e6d84f9c3cdf69b50f9ed8b2b40af780cc5500478",
+          "bytes": 11988,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/portable-mindmaps/.codex-plugin/plugin.json",
+          "sha256": "433794d1c3fc67a2c079ca6a119d975deae982da371a0caf8b995a235f8e0b32",
+          "bytes": 1574,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/portable-mindmaps/assets/icon.png",
+          "sha256": "bd24af64502b9f8cc640418d0836faa472145356ecaf7e3967aa4e88220d6818",
+          "bytes": 1391048,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/portable-mindmaps/skills/portable-mindmaps/SKILL.md",
+          "sha256": "dfc5a76b14b97def5adb976e5257bb090c1f983a42d63c4ed7e000b1c08068c9",
+          "bytes": 1811,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/portable-mindmaps/skills/portable-mindmaps/agents/openai.yaml",
+          "sha256": "eda652b2b1ba3c9fa0863c5ba3f420e2bc8edba0c8495a21d316e199142411b6",
+          "bytes": 199,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/portable-mindmaps/skills/portable-mindmaps/references/format-compatibility.md",
+          "sha256": "ef4c1febdfe2eb8fb09089bb59d8ee5a9c2165a7eec4ef64d2f0f7387c676c01",
+          "bytes": 974,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/portable-mindmaps/skills/portable-mindmaps/references/mindmap-contract.md",
+          "sha256": "2edc393fa82ce4fbd2f06b79fc352a734f3ae7f71e8f9d639bfe2a8ff9c48bc2",
+          "bytes": 1136,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/portable-mindmaps/skills/portable-mindmaps/references/v2-contract.md",
+          "sha256": "9f46004b572a79a04e4e58e0b3d23b468076351a8e7e5ef096a07ad6a06dac80",
+          "bytes": 1718,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/portable-mindmaps/skills/portable-mindmaps/scripts/create_mindmap.py",
+          "sha256": "d0758be7749fe8bc2d909ecffe6b9e6aa335bac168f47b9d87ed222e8b4c5055",
+          "bytes": 15634,
+          "mode": 493
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/plugins/portable-mindmaps/skills/portable-mindmaps/scripts/mindmap_tool.py",
+          "sha256": "f5064c79e27a04e0e30ba85af04d7ae0fe5e4dbaf6e39e6624d424c8d4bc08b1",
+          "bytes": 29042,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/NOTICE",
+          "sha256": "8964c3fb2711e65fd049f3b61d0db976f36d39fd44bceaf102841c233e3ab794",
+          "bytes": 653,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/PRIVACY.md",
+          "sha256": "66a286df4ab814f0512797f619fa64545f40792930497b2e1609a433302941da",
+          "bytes": 940,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/TERMS.md",
+          "sha256": "2b30f970d6f31d5f00d626d3c833ca838ba2e8d71a7aa2724f1443ccda0ee9b3",
+          "bytes": 1139,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/SUPPORT.md",
+          "sha256": "6a44912258ff421036afdc0eb049793a802035142e1129fa175eb767aef8cfcd",
+          "bytes": 824,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/SECURITY.md",
+          "sha256": "ca98320fb9914d64b45f30138ec243531ff9edda3e57d78cdbe02b7ade355f51",
+          "bytes": 1219,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/VERSIONING.md",
+          "sha256": "c6036122a1e8480e8e4db0bea701aa9c8382898c6263c1ad859b6d57bb141ffe",
+          "bytes": 1590,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/MIGRATION.md",
+          "sha256": "87022bb0cbc675736fdf6f854195016cf547343ed800f45f6c8d0e2158bbb0f7",
+          "bytes": 1958,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.0.1/CHANGELOG.md",
+          "sha256": "f0b2379a1e3b9a3316e9dbb7c8aa9ae4a02665fb5b7688a3845c8bcf0e880fdb",
+          "bytes": 2722,
+          "mode": 420
+        }
+      ]
     },
     {
-      "file": "mermaid-diagrams-2.0.0.zip",
-      "sha256": "aebf30394a40ea85023471ec24e26460a8cf05f2a3f48f123df771128d0e4f33",
-      "bytes": 1427306
+      "file": "mermaid-diagrams-2.0.1.zip",
+      "sha256": "aec0f1b5587ecbcbd6d39ae382ef484c802f23dafbbc00e1abc234b20f260e9a",
+      "bytes": 1435767,
+      "license": "Apache-2.0",
+      "inventory": [
+        {
+          "path": "mermaid-diagrams/.codex-plugin/plugin.json",
+          "sha256": "5cbf27fbb114a131b9442b7e09e0abbdae36e403c46c98d97277c7078efe17fc",
+          "bytes": 1552,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/assets/icon.png",
+          "sha256": "c7956967e1a8d25e71c33f3c30888948ff9ac0aec76a5b489c8227e246ef46fb",
+          "bytes": 1415373,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/skills/mermaid-diagrams/SKILL.md",
+          "sha256": "9f2a884e0d9d4c5c7185d6fadcc9b1e4086bf0f783117cf0900e0f092811519c",
+          "bytes": 1803,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/skills/mermaid-diagrams/agents/openai.yaml",
+          "sha256": "dd12763e7e2ed38ff622049172dd35dd0057c62500ac5826626830e77771c0fe",
+          "bytes": 197,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/skills/mermaid-diagrams/references/diagram-selection.md",
+          "sha256": "3ddc6ebc0a9ed41fb11cc72e189606352a12738228896bf3c342aa00fcede8e6",
+          "bytes": 1894,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/skills/mermaid-diagrams/references/v2-contract.md",
+          "sha256": "3caa0438c0e253973843583dc04eea9989a245d538cb2c0ee60138791d57e0eb",
+          "bytes": 2244,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/skills/mermaid-diagrams/scripts/create_mermaid.py",
+          "sha256": "a05b62be667b42af94aa11e681dd4d390c4ec8a140fba74b1439d01a76bbb23f",
+          "bytes": 5998,
+          "mode": 493
+        },
+        {
+          "path": "mermaid-diagrams/skills/mermaid-diagrams/scripts/mermaid_tool.py",
+          "sha256": "3b274de817e1b0f3db86022e8aeb72a48e14310e05ea217d7ced9267f70adca7",
+          "bytes": 39715,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/skills/mermaid-diagrams/scripts/validate_mermaid.py",
+          "sha256": "14ad84b0d205b16a6a2d282021f5a7232df1e7ac6fcd8d439602275620ebd156",
+          "bytes": 19495,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/NOTICE",
+          "sha256": "8964c3fb2711e65fd049f3b61d0db976f36d39fd44bceaf102841c233e3ab794",
+          "bytes": 653,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/PRIVACY.md",
+          "sha256": "66a286df4ab814f0512797f619fa64545f40792930497b2e1609a433302941da",
+          "bytes": 940,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/TERMS.md",
+          "sha256": "2b30f970d6f31d5f00d626d3c833ca838ba2e8d71a7aa2724f1443ccda0ee9b3",
+          "bytes": 1139,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/SUPPORT.md",
+          "sha256": "6a44912258ff421036afdc0eb049793a802035142e1129fa175eb767aef8cfcd",
+          "bytes": 824,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/SECURITY.md",
+          "sha256": "ca98320fb9914d64b45f30138ec243531ff9edda3e57d78cdbe02b7ade355f51",
+          "bytes": 1219,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/VERSIONING.md",
+          "sha256": "c6036122a1e8480e8e4db0bea701aa9c8382898c6263c1ad859b6d57bb141ffe",
+          "bytes": 1590,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/MIGRATION.md",
+          "sha256": "87022bb0cbc675736fdf6f854195016cf547343ed800f45f6c8d0e2158bbb0f7",
+          "bytes": 1958,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/CHANGELOG.md",
+          "sha256": "f0b2379a1e3b9a3316e9dbb7c8aa9ae4a02665fb5b7688a3845c8bcf0e880fdb",
+          "bytes": 2722,
+          "mode": 420
+        }
+      ]
     },
     {
-      "file": "mermaid-diagrams-skill-2.0.0.zip",
-      "sha256": "f2bcd1877837eb9845764336b653162d2e6d0c5f1ffb0493fec7a3135a598e69",
-      "bytes": 17114
+      "file": "mermaid-diagrams-skill-2.0.1.zip",
+      "sha256": "99758943e0d9284a5d1f9509e4fd7dad873494cb7f6bef1e8107da7d87735451",
+      "bytes": 25170,
+      "license": "Apache-2.0",
+      "inventory": [
+        {
+          "path": "mermaid-diagrams/SKILL.md",
+          "sha256": "9f2a884e0d9d4c5c7185d6fadcc9b1e4086bf0f783117cf0900e0f092811519c",
+          "bytes": 1803,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/agents/openai.yaml",
+          "sha256": "dd12763e7e2ed38ff622049172dd35dd0057c62500ac5826626830e77771c0fe",
+          "bytes": 197,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/references/diagram-selection.md",
+          "sha256": "3ddc6ebc0a9ed41fb11cc72e189606352a12738228896bf3c342aa00fcede8e6",
+          "bytes": 1894,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/references/v2-contract.md",
+          "sha256": "3caa0438c0e253973843583dc04eea9989a245d538cb2c0ee60138791d57e0eb",
+          "bytes": 2244,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/scripts/create_mermaid.py",
+          "sha256": "a05b62be667b42af94aa11e681dd4d390c4ec8a140fba74b1439d01a76bbb23f",
+          "bytes": 5998,
+          "mode": 493
+        },
+        {
+          "path": "mermaid-diagrams/scripts/mermaid_tool.py",
+          "sha256": "3b274de817e1b0f3db86022e8aeb72a48e14310e05ea217d7ced9267f70adca7",
+          "bytes": 39715,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/scripts/validate_mermaid.py",
+          "sha256": "14ad84b0d205b16a6a2d282021f5a7232df1e7ac6fcd8d439602275620ebd156",
+          "bytes": 19495,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/NOTICE",
+          "sha256": "8964c3fb2711e65fd049f3b61d0db976f36d39fd44bceaf102841c233e3ab794",
+          "bytes": 653,
+          "mode": 420
+        }
+      ]
     },
     {
-      "file": "modelica-projects-2.0.0.zip",
-      "sha256": "c47ac24a86b95397c7c30bd0d7e1d314dccc755c4f3c61e3b02f1b2236f4cfa3",
-      "bytes": 1583979
+      "file": "modelica-projects-2.0.1.zip",
+      "sha256": "8a026d826fdf6ea7cc97875951a4009150acb72a01467551cbcc0dfd5ac6dab2",
+      "bytes": 1588529,
+      "license": "Apache-2.0",
+      "inventory": [
+        {
+          "path": "modelica-projects/.codex-plugin/plugin.json",
+          "sha256": "70e27d6a6d0ab29abb558d5ccc287d069a783e8be54ba0d1618f427b24aea962",
+          "bytes": 1631,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/assets/icon.png",
+          "sha256": "3e07cb418c92d94ad8ca1bc847a16401b1f0a6fe6850d49fc93791c16d72bdef",
+          "bytes": 1567817,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/skills/modelica-projects/SKILL.md",
+          "sha256": "0d4e618cc3b79f2bb07316d816f244c09fb78705c0f75f62405cff1064ac5c14",
+          "bytes": 1779,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/skills/modelica-projects/agents/openai.yaml",
+          "sha256": "29e765cfeddf58cbc9371fa12536df3b6b47b280dce029803261fd97fde22be7",
+          "bytes": 210,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/skills/modelica-projects/references/project-contract.md",
+          "sha256": "25c05915618f3b66d9023a4e222e7000e2550fdea0d7105d8bebe4ed064f05a2",
+          "bytes": 2356,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/skills/modelica-projects/references/v2-contract.md",
+          "sha256": "df6b6d99dc9df8cfdb9f984ca7a7cac0e9d3ee42a6deb0efe28c858f32201401",
+          "bytes": 1359,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/skills/modelica-projects/scripts/create_modelica_project.py",
+          "sha256": "b55cf4fc1ead07d0d0dc032d0b0ed91e5f5319cf6b96dc1f0a601564b5e842b3",
+          "bytes": 9703,
+          "mode": 493
+        },
+        {
+          "path": "modelica-projects/skills/modelica-projects/scripts/modelica_tool.py",
+          "sha256": "9f65cc397e05abd90dca0bfa9ee5fe3fef1899546241615a884425702ef04b1a",
+          "bytes": 38219,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/skills/modelica-projects/scripts/static_check_modelica.py",
+          "sha256": "725bf50bb7785d5033ab672e6d84f9c3cdf69b50f9ed8b2b40af780cc5500478",
+          "bytes": 11988,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/NOTICE",
+          "sha256": "8964c3fb2711e65fd049f3b61d0db976f36d39fd44bceaf102841c233e3ab794",
+          "bytes": 653,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/PRIVACY.md",
+          "sha256": "66a286df4ab814f0512797f619fa64545f40792930497b2e1609a433302941da",
+          "bytes": 940,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/TERMS.md",
+          "sha256": "2b30f970d6f31d5f00d626d3c833ca838ba2e8d71a7aa2724f1443ccda0ee9b3",
+          "bytes": 1139,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/SUPPORT.md",
+          "sha256": "6a44912258ff421036afdc0eb049793a802035142e1129fa175eb767aef8cfcd",
+          "bytes": 824,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/SECURITY.md",
+          "sha256": "ca98320fb9914d64b45f30138ec243531ff9edda3e57d78cdbe02b7ade355f51",
+          "bytes": 1219,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/VERSIONING.md",
+          "sha256": "c6036122a1e8480e8e4db0bea701aa9c8382898c6263c1ad859b6d57bb141ffe",
+          "bytes": 1590,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/MIGRATION.md",
+          "sha256": "87022bb0cbc675736fdf6f854195016cf547343ed800f45f6c8d0e2158bbb0f7",
+          "bytes": 1958,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/CHANGELOG.md",
+          "sha256": "f0b2379a1e3b9a3316e9dbb7c8aa9ae4a02665fb5b7688a3845c8bcf0e880fdb",
+          "bytes": 2722,
+          "mode": 420
+        }
+      ]
     },
     {
-      "file": "modelica-projects-skill-2.0.0.zip",
-      "sha256": "63723d83ec47bcca95f719f0ded444d20f059707f9327ab0c30c560da4ca387e",
-      "bytes": 21249
+      "file": "modelica-projects-skill-2.0.1.zip",
+      "sha256": "eaf613336e5e4fc4f220d4aaf69368294a3e56eacc1111935ec05869883820e3",
+      "bytes": 25388,
+      "license": "Apache-2.0",
+      "inventory": [
+        {
+          "path": "modelica-projects/SKILL.md",
+          "sha256": "0d4e618cc3b79f2bb07316d816f244c09fb78705c0f75f62405cff1064ac5c14",
+          "bytes": 1779,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/agents/openai.yaml",
+          "sha256": "29e765cfeddf58cbc9371fa12536df3b6b47b280dce029803261fd97fde22be7",
+          "bytes": 210,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/references/project-contract.md",
+          "sha256": "25c05915618f3b66d9023a4e222e7000e2550fdea0d7105d8bebe4ed064f05a2",
+          "bytes": 2356,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/references/v2-contract.md",
+          "sha256": "df6b6d99dc9df8cfdb9f984ca7a7cac0e9d3ee42a6deb0efe28c858f32201401",
+          "bytes": 1359,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/scripts/create_modelica_project.py",
+          "sha256": "b55cf4fc1ead07d0d0dc032d0b0ed91e5f5319cf6b96dc1f0a601564b5e842b3",
+          "bytes": 9703,
+          "mode": 493
+        },
+        {
+          "path": "modelica-projects/scripts/modelica_tool.py",
+          "sha256": "9f65cc397e05abd90dca0bfa9ee5fe3fef1899546241615a884425702ef04b1a",
+          "bytes": 38219,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/scripts/static_check_modelica.py",
+          "sha256": "725bf50bb7785d5033ab672e6d84f9c3cdf69b50f9ed8b2b40af780cc5500478",
+          "bytes": 11988,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/NOTICE",
+          "sha256": "8964c3fb2711e65fd049f3b61d0db976f36d39fd44bceaf102841c233e3ab794",
+          "bytes": 653,
+          "mode": 420
+        }
+      ]
     },
     {
-      "file": "portable-mindmaps-2.0.0.zip",
-      "sha256": "f4148f71215a68aacfb58310fa6dd890ef67ceb8c0518e0ada0dd0bb7f06c359",
-      "bytes": 1403456
+      "file": "portable-mindmaps-2.0.1.zip",
+      "sha256": "bd756d289e0471db141348ca8fe64c44081191bbce65895deff1ccae2c150f84",
+      "bytes": 1406401,
+      "license": "Apache-2.0",
+      "inventory": [
+        {
+          "path": "portable-mindmaps/.codex-plugin/plugin.json",
+          "sha256": "433794d1c3fc67a2c079ca6a119d975deae982da371a0caf8b995a235f8e0b32",
+          "bytes": 1574,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/assets/icon.png",
+          "sha256": "bd24af64502b9f8cc640418d0836faa472145356ecaf7e3967aa4e88220d6818",
+          "bytes": 1391048,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/skills/portable-mindmaps/SKILL.md",
+          "sha256": "dfc5a76b14b97def5adb976e5257bb090c1f983a42d63c4ed7e000b1c08068c9",
+          "bytes": 1811,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/skills/portable-mindmaps/agents/openai.yaml",
+          "sha256": "eda652b2b1ba3c9fa0863c5ba3f420e2bc8edba0c8495a21d316e199142411b6",
+          "bytes": 199,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/skills/portable-mindmaps/references/format-compatibility.md",
+          "sha256": "ef4c1febdfe2eb8fb09089bb59d8ee5a9c2165a7eec4ef64d2f0f7387c676c01",
+          "bytes": 974,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/skills/portable-mindmaps/references/mindmap-contract.md",
+          "sha256": "2edc393fa82ce4fbd2f06b79fc352a734f3ae7f71e8f9d639bfe2a8ff9c48bc2",
+          "bytes": 1136,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/skills/portable-mindmaps/references/v2-contract.md",
+          "sha256": "9f46004b572a79a04e4e58e0b3d23b468076351a8e7e5ef096a07ad6a06dac80",
+          "bytes": 1718,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/skills/portable-mindmaps/scripts/create_mindmap.py",
+          "sha256": "d0758be7749fe8bc2d909ecffe6b9e6aa335bac168f47b9d87ed222e8b4c5055",
+          "bytes": 15634,
+          "mode": 493
+        },
+        {
+          "path": "portable-mindmaps/skills/portable-mindmaps/scripts/mindmap_tool.py",
+          "sha256": "f5064c79e27a04e0e30ba85af04d7ae0fe5e4dbaf6e39e6624d424c8d4bc08b1",
+          "bytes": 29042,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/NOTICE",
+          "sha256": "8964c3fb2711e65fd049f3b61d0db976f36d39fd44bceaf102841c233e3ab794",
+          "bytes": 653,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/PRIVACY.md",
+          "sha256": "66a286df4ab814f0512797f619fa64545f40792930497b2e1609a433302941da",
+          "bytes": 940,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/TERMS.md",
+          "sha256": "2b30f970d6f31d5f00d626d3c833ca838ba2e8d71a7aa2724f1443ccda0ee9b3",
+          "bytes": 1139,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/SUPPORT.md",
+          "sha256": "6a44912258ff421036afdc0eb049793a802035142e1129fa175eb767aef8cfcd",
+          "bytes": 824,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/SECURITY.md",
+          "sha256": "ca98320fb9914d64b45f30138ec243531ff9edda3e57d78cdbe02b7ade355f51",
+          "bytes": 1219,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/VERSIONING.md",
+          "sha256": "c6036122a1e8480e8e4db0bea701aa9c8382898c6263c1ad859b6d57bb141ffe",
+          "bytes": 1590,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/MIGRATION.md",
+          "sha256": "87022bb0cbc675736fdf6f854195016cf547343ed800f45f6c8d0e2158bbb0f7",
+          "bytes": 1958,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/CHANGELOG.md",
+          "sha256": "f0b2379a1e3b9a3316e9dbb7c8aa9ae4a02665fb5b7688a3845c8bcf0e880fdb",
+          "bytes": 2722,
+          "mode": 420
+        }
+      ]
     },
     {
-      "file": "portable-mindmaps-skill-2.0.0.zip",
-      "sha256": "4b5e11ad6030ba40932d33859b35ef3dccf2a34fa299c16f87a5d060fa76a6ba",
-      "bytes": 18436
+      "file": "portable-mindmaps-skill-2.0.1.zip",
+      "sha256": "fdf001fc4489df36457d45482c89a10b0c089bbd8b09ec140430271b8787a6f9",
+      "bytes": 20979,
+      "license": "Apache-2.0",
+      "inventory": [
+        {
+          "path": "portable-mindmaps/SKILL.md",
+          "sha256": "dfc5a76b14b97def5adb976e5257bb090c1f983a42d63c4ed7e000b1c08068c9",
+          "bytes": 1811,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/agents/openai.yaml",
+          "sha256": "eda652b2b1ba3c9fa0863c5ba3f420e2bc8edba0c8495a21d316e199142411b6",
+          "bytes": 199,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/references/format-compatibility.md",
+          "sha256": "ef4c1febdfe2eb8fb09089bb59d8ee5a9c2165a7eec4ef64d2f0f7387c676c01",
+          "bytes": 974,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/references/mindmap-contract.md",
+          "sha256": "2edc393fa82ce4fbd2f06b79fc352a734f3ae7f71e8f9d639bfe2a8ff9c48bc2",
+          "bytes": 1136,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/references/v2-contract.md",
+          "sha256": "9f46004b572a79a04e4e58e0b3d23b468076351a8e7e5ef096a07ad6a06dac80",
+          "bytes": 1718,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/scripts/create_mindmap.py",
+          "sha256": "d0758be7749fe8bc2d909ecffe6b9e6aa335bac168f47b9d87ed222e8b4c5055",
+          "bytes": 15634,
+          "mode": 493
+        },
+        {
+          "path": "portable-mindmaps/scripts/mindmap_tool.py",
+          "sha256": "f5064c79e27a04e0e30ba85af04d7ae0fe5e4dbaf6e39e6624d424c8d4bc08b1",
+          "bytes": 29042,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/NOTICE",
+          "sha256": "8964c3fb2711e65fd049f3b61d0db976f36d39fd44bceaf102841c233e3ab794",
+          "bytes": 653,
+          "mode": 420
+        }
+      ]
     }
   ],
   "softwareInventory": [
     {
       "name": "mermaid-diagrams",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "license": "Apache-2.0",
+      "contractVersion": "2",
+      "evidenceLevel": "static",
       "files": [
         {
           "path": ".codex-plugin/plugin.json",
-          "sha256": "713dd14e8d3f3e9a0d602a06345cad862a0876705b92faa87ed8766bcb142029",
+          "sha256": "5cbf27fbb114a131b9442b7e09e0abbdae36e403c46c98d97277c7078efe17fc",
           "bytes": 1552
         },
         {
@@ -74,8 +814,8 @@
         },
         {
           "path": "skills/mermaid-diagrams/SKILL.md",
-          "sha256": "ce68485f043af81d962bfcb5a2b33838d234b5cebf72f9ec56ebbd60805605cf",
-          "bytes": 1424
+          "sha256": "9f2a884e0d9d4c5c7185d6fadcc9b1e4086bf0f783117cf0900e0f092811519c",
+          "bytes": 1803
         },
         {
           "path": "skills/mermaid-diagrams/agents/openai.yaml",
@@ -84,40 +824,42 @@
         },
         {
           "path": "skills/mermaid-diagrams/references/diagram-selection.md",
-          "sha256": "5f02f18fbde217cff2d98e98e07b1e524f08724afeb9a494a9c6b7d8abff8b6c",
-          "bytes": 1761
+          "sha256": "3ddc6ebc0a9ed41fb11cc72e189606352a12738228896bf3c342aa00fcede8e6",
+          "bytes": 1894
         },
         {
           "path": "skills/mermaid-diagrams/references/v2-contract.md",
-          "sha256": "d397ba9377b54338e2fd876a3e5eb9ab520c54eba985c112534d7359c593036a",
-          "bytes": 1024
+          "sha256": "3caa0438c0e253973843583dc04eea9989a245d538cb2c0ee60138791d57e0eb",
+          "bytes": 2244
         },
         {
           "path": "skills/mermaid-diagrams/scripts/create_mermaid.py",
-          "sha256": "f0945f5d6dc273de9d6344688b94ddca131579bde1e198dc4681a5e5d749b2d7",
-          "bytes": 5268
+          "sha256": "a05b62be667b42af94aa11e681dd4d390c4ec8a140fba74b1439d01a76bbb23f",
+          "bytes": 5998
         },
         {
           "path": "skills/mermaid-diagrams/scripts/mermaid_tool.py",
-          "sha256": "9a552f11a4fae321b6efb627f198f734dc57ee62a8fc8ac79d132b1b1d5582b4",
-          "bytes": 22365
+          "sha256": "3b274de817e1b0f3db86022e8aeb72a48e14310e05ea217d7ced9267f70adca7",
+          "bytes": 39715
         },
         {
           "path": "skills/mermaid-diagrams/scripts/validate_mermaid.py",
-          "sha256": "e9ec2c32cd5496fe1dba08d7642402992a2d11e173b825e376e4d045878795ff",
-          "bytes": 5501
+          "sha256": "14ad84b0d205b16a6a2d282021f5a7232df1e7ac6fcd8d439602275620ebd156",
+          "bytes": 19495
         }
       ]
     },
     {
       "name": "modelica-projects",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "license": "Apache-2.0",
+      "contractVersion": "2",
+      "evidenceLevel": "static",
       "files": [
         {
           "path": ".codex-plugin/plugin.json",
-          "sha256": "080f04e17fead0321747f7035aa78cac074cbbad39d0d5fd87854cace6a8350f",
-          "bytes": 1617
+          "sha256": "70e27d6a6d0ab29abb558d5ccc287d069a783e8be54ba0d1618f427b24aea962",
+          "bytes": 1631
         },
         {
           "path": "assets/icon.png",
@@ -126,8 +868,8 @@
         },
         {
           "path": "skills/modelica-projects/SKILL.md",
-          "sha256": "03d44079047fe21bf486e83ef595fa753c3a0d618e51ff16ae687a35f28f33fd",
-          "bytes": 1550
+          "sha256": "0d4e618cc3b79f2bb07316d816f244c09fb78705c0f75f62405cff1064ac5c14",
+          "bytes": 1779
         },
         {
           "path": "skills/modelica-projects/agents/openai.yaml",
@@ -141,34 +883,36 @@
         },
         {
           "path": "skills/modelica-projects/references/v2-contract.md",
-          "sha256": "53c9b207b041e66dbb68b66df5e950f160bbc747d0a8da697e8cff697821c732",
-          "bytes": 1162
+          "sha256": "df6b6d99dc9df8cfdb9f984ca7a7cac0e9d3ee42a6deb0efe28c858f32201401",
+          "bytes": 1359
         },
         {
           "path": "skills/modelica-projects/scripts/create_modelica_project.py",
-          "sha256": "2b0adab342e2a95797d08ab11c8bc29736bb20666e9c4f1df1d6901b50516f74",
-          "bytes": 9361
+          "sha256": "b55cf4fc1ead07d0d0dc032d0b0ed91e5f5319cf6b96dc1f0a601564b5e842b3",
+          "bytes": 9703
         },
         {
           "path": "skills/modelica-projects/scripts/modelica_tool.py",
-          "sha256": "06d6458d31f84c303c9c87318805a8659283c81ad605799c510bd1b374763277",
-          "bytes": 24436
+          "sha256": "9f65cc397e05abd90dca0bfa9ee5fe3fef1899546241615a884425702ef04b1a",
+          "bytes": 38219
         },
         {
           "path": "skills/modelica-projects/scripts/static_check_modelica.py",
-          "sha256": "e530fbc7e191088524ae2b131b2fefd8fb70086b771ba8be2054a407d98ddf16",
-          "bytes": 11195
+          "sha256": "725bf50bb7785d5033ab672e6d84f9c3cdf69b50f9ed8b2b40af780cc5500478",
+          "bytes": 11988
         }
       ]
     },
     {
       "name": "portable-mindmaps",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "license": "Apache-2.0",
+      "contractVersion": "2",
+      "evidenceLevel": "static",
       "files": [
         {
           "path": ".codex-plugin/plugin.json",
-          "sha256": "f2982961bc5cda08cf2dce72ae674a42b861c3b6fb97f0c1f08d971fad1bc3ad",
+          "sha256": "433794d1c3fc67a2c079ca6a119d975deae982da371a0caf8b995a235f8e0b32",
           "bytes": 1574
         },
         {
@@ -178,8 +922,8 @@
         },
         {
           "path": "skills/portable-mindmaps/SKILL.md",
-          "sha256": "d5e4031023e1541eb53367143ff3933fa8a85dd500b6d2971dbdfec283222f89",
-          "bytes": 1366
+          "sha256": "dfc5a76b14b97def5adb976e5257bb090c1f983a42d63c4ed7e000b1c08068c9",
+          "bytes": 1811
         },
         {
           "path": "skills/portable-mindmaps/agents/openai.yaml",
@@ -198,8 +942,8 @@
         },
         {
           "path": "skills/portable-mindmaps/references/v2-contract.md",
-          "sha256": "062325f5294991603b092887de34371095661bd0b539ee944f1ac920f6452642",
-          "bytes": 1037
+          "sha256": "9f46004b572a79a04e4e58e0b3d23b468076351a8e7e5ef096a07ad6a06dac80",
+          "bytes": 1718
         },
         {
           "path": "skills/portable-mindmaps/scripts/create_mindmap.py",
@@ -208,11 +952,73 @@
         },
         {
           "path": "skills/portable-mindmaps/scripts/mindmap_tool.py",
-          "sha256": "dea6bff2077efdcce9f6f3a5b59291b652795fca0feed4470177838ee3f72565",
-          "bytes": 22425
+          "sha256": "f5064c79e27a04e0e30ba85af04d7ae0fe5e4dbaf6e39e6624d424c8d4bc08b1",
+          "bytes": 29042
         }
       ]
     }
   ],
-  "validationBoundary": "Archives passed deterministic ZIP integrity and path checks plus offline plugin validation. Mermaid source validation does not prove rendering. Modelica static checks do not prove compilation, simulation, numerical correctness, or physical validity. Mind-map validation does not prove import fidelity in any application."
+  "validationBoundary": "Archives passed deterministic ZIP integrity and path checks plus offline plugin validation. Mermaid source validation does not prove rendering. Modelica static checks do not prove compilation, simulation, numerical correctness, or physical validity. Mind-map validation does not prove import fidelity in any application.",
+  "publicFiles": [
+    {
+      "file": "README.md",
+      "sha256": "ee0daf41d25bc86d0ee224985c93395db141daee269808f2c811368447ddbd6b",
+      "bytes": 2153,
+      "license": "Apache-2.0"
+    },
+    {
+      "file": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "license": "Apache-2.0"
+    },
+    {
+      "file": "NOTICE",
+      "sha256": "8964c3fb2711e65fd049f3b61d0db976f36d39fd44bceaf102841c233e3ab794",
+      "bytes": 653,
+      "license": "Apache-2.0"
+    },
+    {
+      "file": "PRIVACY.md",
+      "sha256": "66a286df4ab814f0512797f619fa64545f40792930497b2e1609a433302941da",
+      "bytes": 940,
+      "license": "Apache-2.0"
+    },
+    {
+      "file": "TERMS.md",
+      "sha256": "2b30f970d6f31d5f00d626d3c833ca838ba2e8d71a7aa2724f1443ccda0ee9b3",
+      "bytes": 1139,
+      "license": "Apache-2.0"
+    },
+    {
+      "file": "SUPPORT.md",
+      "sha256": "6a44912258ff421036afdc0eb049793a802035142e1129fa175eb767aef8cfcd",
+      "bytes": 824,
+      "license": "Apache-2.0"
+    },
+    {
+      "file": "SECURITY.md",
+      "sha256": "ca98320fb9914d64b45f30138ec243531ff9edda3e57d78cdbe02b7ade355f51",
+      "bytes": 1219,
+      "license": "Apache-2.0"
+    },
+    {
+      "file": "VERSIONING.md",
+      "sha256": "c6036122a1e8480e8e4db0bea701aa9c8382898c6263c1ad859b6d57bb141ffe",
+      "bytes": 1590,
+      "license": "Apache-2.0"
+    },
+    {
+      "file": "MIGRATION.md",
+      "sha256": "87022bb0cbc675736fdf6f854195016cf547343ed800f45f6c8d0e2158bbb0f7",
+      "bytes": 1958,
+      "license": "Apache-2.0"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "sha256": "f0b2379a1e3b9a3316e9dbb7c8aa9ae4a02665fb5b7688a3845c8bcf0e880fdb",
+      "bytes": 2722,
+      "license": "Apache-2.0"
+    }
+  ]
 }

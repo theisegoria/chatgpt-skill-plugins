@@ -8,6 +8,8 @@
 - Existing v1 Markdown, OPML, and FreeMind mind maps can be imported; richer metadata is represented in canonical JSON and conversion loss is reported per target format.
 - The v1 generators remain in the v2 bundles for explicit legacy workflows, but new skill instructions route to the v2 tools.
 
+In 2.0.x, importing Markdown extracts Mermaid fence bodies into a canonical document; it does not preserve unrelated Markdown for a later rewrite. Modelica import validates and preserves source files but does not reconstruct the canonical visual graph from existing annotations. Those limits are reported explicitly rather than described as round-trip support.
+
 ## Earlier product-line migration
 
 Version 0.3.0 establishes a three-plugin collection:

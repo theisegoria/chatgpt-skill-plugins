@@ -1,6 +1,6 @@
 {
-  "release": "2.0.1",
-  "sourceCommit": "3aa6f0e23021d260210dd14298e2d40b4674fb9a",
+  "release": "2.1.0",
+  "sourceCommit": "03075bd7fc91fc766f00f3d88fd6072bebda3e42",
   "marketplace": "ben-chatgpt-apps",
   "license": "Apache-2.0",
   "python": "3.14.6",
@@ -17,258 +17,294 @@
   "plugins": [
     {
       "name": "mermaid-diagrams",
-      "version": "2.0.1"
+      "version": "2.1.0"
     },
     {
       "name": "modelica-projects",
-      "version": "2.0.1"
+      "version": "2.1.0"
     },
     {
       "name": "portable-mindmaps",
-      "version": "2.0.1"
+      "version": "2.1.0"
     }
   ],
   "artifacts": [
     {
-      "file": "chatgpt-skill-plugins-2.0.1.zip",
-      "sha256": "1b582bfaa89e78f7088b69aaeb54985c3499edb2024b31dca7c3a9554a6ec1ba",
-      "bytes": 4411706,
+      "file": "chatgpt-skill-plugins-2.1.0.zip",
+      "sha256": "821ff1b158b28b0a99cab02b8d5844258b46273a62efbc2d9ec7d457c462c494",
+      "bytes": 4454506,
       "license": "Apache-2.0",
       "inventory": [
         {
-          "path": "chatgpt-skill-plugins-2.0.1/.agents/plugins/marketplace.json",
+          "path": "chatgpt-skill-plugins-2.1.0/.agents/plugins/marketplace.json",
           "sha256": "486b6a60da605ae9e46ee82098465f33a53f69dea427b98bfef971b46fa42995",
           "bytes": 970,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/mermaid-diagrams/.codex-plugin/plugin.json",
-          "sha256": "5cbf27fbb114a131b9442b7e09e0abbdae36e403c46c98d97277c7078efe17fc",
-          "bytes": 1552,
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/mermaid-diagrams/.codex-plugin/plugin.json",
+          "sha256": "eb5cc47d7f770517cfbeea18ee14e7fb37981a0de749361cb1ca0aecd68b41ec",
+          "bytes": 1736,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/mermaid-diagrams/assets/icon.png",
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/mermaid-diagrams/assets/icon.png",
           "sha256": "c7956967e1a8d25e71c33f3c30888948ff9ac0aec76a5b489c8227e246ef46fb",
           "bytes": 1415373,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/mermaid-diagrams/skills/mermaid-diagrams/SKILL.md",
-          "sha256": "9f2a884e0d9d4c5c7185d6fadcc9b1e4086bf0f783117cf0900e0f092811519c",
-          "bytes": 1803,
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/mermaid-diagrams/skills/mermaid-diagrams/SKILL.md",
+          "sha256": "22a13e249b232824736040247f3c8f78bc3ad477f03850dd24c9a3fa8bf15f26",
+          "bytes": 2575,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/mermaid-diagrams/skills/mermaid-diagrams/agents/openai.yaml",
-          "sha256": "dd12763e7e2ed38ff622049172dd35dd0057c62500ac5826626830e77771c0fe",
-          "bytes": 197,
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/mermaid-diagrams/skills/mermaid-diagrams/agents/openai.yaml",
+          "sha256": "9feb24c5a320a071e11aa3657b54b82f9460d13e700528edebc27a1c399f2a2b",
+          "bytes": 233,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/mermaid-diagrams/skills/mermaid-diagrams/references/diagram-selection.md",
-          "sha256": "3ddc6ebc0a9ed41fb11cc72e189606352a12738228896bf3c342aa00fcede8e6",
-          "bytes": 1894,
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/mermaid-diagrams/skills/mermaid-diagrams/references/canonical-v2.schema.json",
+          "sha256": "d204e9c349edcefa5c0d3e6105304026d329e0eb04e6abebc11a49d7ad941a0e",
+          "bytes": 10995,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/mermaid-diagrams/skills/mermaid-diagrams/references/v2-contract.md",
-          "sha256": "3caa0438c0e253973843583dc04eea9989a245d538cb2c0ee60138791d57e0eb",
-          "bytes": 2244,
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/mermaid-diagrams/skills/mermaid-diagrams/references/diagram-selection.md",
+          "sha256": "ed5ef502af93ca1634d83ecd1f193eae0fc9cd785d89c497f15c9612882ace77",
+          "bytes": 2225,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/mermaid-diagrams/skills/mermaid-diagrams/scripts/create_mermaid.py",
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/mermaid-diagrams/skills/mermaid-diagrams/references/edit-markdown-v1.schema.json",
+          "sha256": "d5495a2d49ef362d03f8985878f7194142d17f6bd3e51e2b3bf215ee1424337c",
+          "bytes": 1175,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/mermaid-diagrams/skills/mermaid-diagrams/references/v2-contract.md",
+          "sha256": "e91be7d031ad0be64c52fddee54f83917aa901fa527817e2de8753dd659c6810",
+          "bytes": 3248,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/mermaid-diagrams/skills/mermaid-diagrams/scripts/create_mermaid.py",
           "sha256": "a05b62be667b42af94aa11e681dd4d390c4ec8a140fba74b1439d01a76bbb23f",
           "bytes": 5998,
           "mode": 493
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/mermaid-diagrams/skills/mermaid-diagrams/scripts/mermaid_tool.py",
-          "sha256": "3b274de817e1b0f3db86022e8aeb72a48e14310e05ea217d7ced9267f70adca7",
-          "bytes": 39715,
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/mermaid-diagrams/skills/mermaid-diagrams/scripts/mermaid_tool.py",
+          "sha256": "fcde6e99fa5cd0efc60f94f67726163e1507ed46b4bf33e0adbad97c61fe0552",
+          "bytes": 81687,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/mermaid-diagrams/skills/mermaid-diagrams/scripts/validate_mermaid.py",
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/mermaid-diagrams/skills/mermaid-diagrams/scripts/validate_mermaid.py",
           "sha256": "14ad84b0d205b16a6a2d282021f5a7232df1e7ac6fcd8d439602275620ebd156",
           "bytes": 19495,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/modelica-projects/.codex-plugin/plugin.json",
-          "sha256": "70e27d6a6d0ab29abb558d5ccc287d069a783e8be54ba0d1618f427b24aea962",
-          "bytes": 1631,
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/modelica-projects/.codex-plugin/plugin.json",
+          "sha256": "560c76a586b6d89f02c58231af741329b4b67cf6fa2d240d31d8b7b473937a58",
+          "bytes": 1817,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/modelica-projects/assets/icon.png",
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/modelica-projects/assets/icon.png",
           "sha256": "3e07cb418c92d94ad8ca1bc847a16401b1f0a6fe6850d49fc93791c16d72bdef",
           "bytes": 1567817,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/modelica-projects/skills/modelica-projects/SKILL.md",
-          "sha256": "0d4e618cc3b79f2bb07316d816f244c09fb78705c0f75f62405cff1064ac5c14",
-          "bytes": 1779,
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/modelica-projects/skills/modelica-projects/SKILL.md",
+          "sha256": "824448b9d5bc620114f7496217f7a8de645a7f287476832a75e120b8886bea97",
+          "bytes": 2724,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/modelica-projects/skills/modelica-projects/agents/openai.yaml",
-          "sha256": "29e765cfeddf58cbc9371fa12536df3b6b47b280dce029803261fd97fde22be7",
-          "bytes": 210,
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/modelica-projects/skills/modelica-projects/agents/openai.yaml",
+          "sha256": "ac8e474588df69a1467d674e137c2d185edc0b0aa1856e459d9b73085e7ca04c",
+          "bytes": 262,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/modelica-projects/skills/modelica-projects/references/project-contract.md",
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/modelica-projects/skills/modelica-projects/references/canonical-v2.schema.json",
+          "sha256": "40fb225be6986620a5c2de775eaf6f5c1cbaff2d7b9d74ee3e7030cb717939f2",
+          "bytes": 8834,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/modelica-projects/skills/modelica-projects/references/edit-v1.schema.json",
+          "sha256": "24dc236e9e110fe4d14d97467b5986e2aabaee944223efb2be3b09f1b363b72c",
+          "bytes": 1922,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/modelica-projects/skills/modelica-projects/references/project-contract.md",
           "sha256": "25c05915618f3b66d9023a4e222e7000e2550fdea0d7105d8bebe4ed064f05a2",
           "bytes": 2356,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/modelica-projects/skills/modelica-projects/references/v2-contract.md",
-          "sha256": "df6b6d99dc9df8cfdb9f984ca7a7cac0e9d3ee42a6deb0efe28c858f32201401",
-          "bytes": 1359,
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/modelica-projects/skills/modelica-projects/references/v2-contract.md",
+          "sha256": "68a1c32c737802e956d38d88d0390fa6cbb6d192e8fd0cd7136ec8e79d86ab6f",
+          "bytes": 3490,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/modelica-projects/skills/modelica-projects/scripts/create_modelica_project.py",
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/modelica-projects/skills/modelica-projects/scripts/create_modelica_project.py",
           "sha256": "b55cf4fc1ead07d0d0dc032d0b0ed91e5f5319cf6b96dc1f0a601564b5e842b3",
           "bytes": 9703,
           "mode": 493
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/modelica-projects/skills/modelica-projects/scripts/modelica_tool.py",
-          "sha256": "9f65cc397e05abd90dca0bfa9ee5fe3fef1899546241615a884425702ef04b1a",
-          "bytes": 38219,
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/modelica-projects/skills/modelica-projects/scripts/modelica_tool.py",
+          "sha256": "a25e55ea5ad1119cc9a9dafd4c37f103572f6a85b051b08e1605675d3833cbe4",
+          "bytes": 87694,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/modelica-projects/skills/modelica-projects/scripts/static_check_modelica.py",
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/modelica-projects/skills/modelica-projects/scripts/static_check_modelica.py",
           "sha256": "725bf50bb7785d5033ab672e6d84f9c3cdf69b50f9ed8b2b40af780cc5500478",
           "bytes": 11988,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/portable-mindmaps/.codex-plugin/plugin.json",
-          "sha256": "433794d1c3fc67a2c079ca6a119d975deae982da371a0caf8b995a235f8e0b32",
-          "bytes": 1574,
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/portable-mindmaps/.codex-plugin/plugin.json",
+          "sha256": "247ec939856e4f1f0b9422960bd5b74e1b2751f053ecbab31e0047fd251fc18c",
+          "bytes": 1707,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/portable-mindmaps/assets/icon.png",
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/portable-mindmaps/assets/icon.png",
           "sha256": "bd24af64502b9f8cc640418d0836faa472145356ecaf7e3967aa4e88220d6818",
           "bytes": 1391048,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/portable-mindmaps/skills/portable-mindmaps/SKILL.md",
-          "sha256": "dfc5a76b14b97def5adb976e5257bb090c1f983a42d63c4ed7e000b1c08068c9",
-          "bytes": 1811,
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/portable-mindmaps/skills/portable-mindmaps/SKILL.md",
+          "sha256": "657d03e4ab2da33befab312aeeb33ef2ee18707da87a8f5a2cb0a0d3a2dd08a8",
+          "bytes": 2410,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/portable-mindmaps/skills/portable-mindmaps/agents/openai.yaml",
-          "sha256": "eda652b2b1ba3c9fa0863c5ba3f420e2bc8edba0c8495a21d316e199142411b6",
-          "bytes": 199,
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/portable-mindmaps/skills/portable-mindmaps/agents/openai.yaml",
+          "sha256": "6d7c7398e1c5bc40312615171bbd6d0ab88a4ce0b95df91b9507f995713aa21c",
+          "bytes": 256,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/portable-mindmaps/skills/portable-mindmaps/references/format-compatibility.md",
-          "sha256": "ef4c1febdfe2eb8fb09089bb59d8ee5a9c2165a7eec4ef64d2f0f7387c676c01",
-          "bytes": 974,
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/portable-mindmaps/skills/portable-mindmaps/references/canonical-v2.schema.json",
+          "sha256": "0c72831012ee6dc4f4dad51b970c50d19b088cb6e5063d19236d39b0d7044004",
+          "bytes": 1923,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/portable-mindmaps/skills/portable-mindmaps/references/mindmap-contract.md",
-          "sha256": "2edc393fa82ce4fbd2f06b79fc352a734f3ae7f71e8f9d639bfe2a8ff9c48bc2",
-          "bytes": 1136,
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/portable-mindmaps/skills/portable-mindmaps/references/format-compatibility.md",
+          "sha256": "2382f0c9e74cfb9b9430e5fa7ba2758cdc3a54c7b3f22959a9aeebef1456c830",
+          "bytes": 1596,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/portable-mindmaps/skills/portable-mindmaps/references/v2-contract.md",
-          "sha256": "9f46004b572a79a04e4e58e0b3d23b468076351a8e7e5ef096a07ad6a06dac80",
-          "bytes": 1718,
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/portable-mindmaps/skills/portable-mindmaps/references/mindmap-contract.md",
+          "sha256": "673ddb8af73356cbb55a9649b52c082ec1044979ee76d94f67a3c5dab2983e17",
+          "bytes": 1327,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/portable-mindmaps/skills/portable-mindmaps/scripts/create_mindmap.py",
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/portable-mindmaps/skills/portable-mindmaps/references/reorder-v1.schema.json",
+          "sha256": "8f583c8764579d6278eeeeca224a0b8b719fa6c873ec4bee044381f1c158501b",
+          "bytes": 835,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/portable-mindmaps/skills/portable-mindmaps/references/v2-contract.md",
+          "sha256": "22a8ce1cb0e52844bfca84e7aafa21ffee751dedae770f96ee5749a4a3648d76",
+          "bytes": 2823,
+          "mode": 420
+        },
+        {
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/portable-mindmaps/skills/portable-mindmaps/scripts/create_mindmap.py",
           "sha256": "d0758be7749fe8bc2d909ecffe6b9e6aa335bac168f47b9d87ed222e8b4c5055",
           "bytes": 15634,
           "mode": 493
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/plugins/portable-mindmaps/skills/portable-mindmaps/scripts/mindmap_tool.py",
-          "sha256": "f5064c79e27a04e0e30ba85af04d7ae0fe5e4dbaf6e39e6624d424c8d4bc08b1",
-          "bytes": 29042,
+          "path": "chatgpt-skill-plugins-2.1.0/plugins/portable-mindmaps/skills/portable-mindmaps/scripts/mindmap_tool.py",
+          "sha256": "40fa5c551ab12dfeefa495cf1745857753851ede7eff555a65355f7d36166bfd",
+          "bytes": 67649,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/LICENSE",
+          "path": "chatgpt-skill-plugins-2.1.0/LICENSE",
           "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
           "bytes": 11357,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/NOTICE",
+          "path": "chatgpt-skill-plugins-2.1.0/NOTICE",
           "sha256": "8964c3fb2711e65fd049f3b61d0db976f36d39fd44bceaf102841c233e3ab794",
           "bytes": 653,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/PRIVACY.md",
+          "path": "chatgpt-skill-plugins-2.1.0/PRIVACY.md",
           "sha256": "66a286df4ab814f0512797f619fa64545f40792930497b2e1609a433302941da",
           "bytes": 940,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/TERMS.md",
+          "path": "chatgpt-skill-plugins-2.1.0/TERMS.md",
           "sha256": "2b30f970d6f31d5f00d626d3c833ca838ba2e8d71a7aa2724f1443ccda0ee9b3",
           "bytes": 1139,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/SUPPORT.md",
+          "path": "chatgpt-skill-plugins-2.1.0/SUPPORT.md",
           "sha256": "6a44912258ff421036afdc0eb049793a802035142e1129fa175eb767aef8cfcd",
           "bytes": 824,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/SECURITY.md",
-          "sha256": "ca98320fb9914d64b45f30138ec243531ff9edda3e57d78cdbe02b7ade355f51",
-          "bytes": 1219,
+          "path": "chatgpt-skill-plugins-2.1.0/SECURITY.md",
+          "sha256": "b6f4768bc0c6198f7a2e11b86bee16519b7a9b14c96f5cfb1f2abd0261644e28",
+          "bytes": 1384,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/VERSIONING.md",
-          "sha256": "c6036122a1e8480e8e4db0bea701aa9c8382898c6263c1ad859b6d57bb141ffe",
-          "bytes": 1590,
+          "path": "chatgpt-skill-plugins-2.1.0/VERSIONING.md",
+          "sha256": "f3ef2b57e62f94f944d613a13fef0ee4b6702bdbf13a3bb10c6b8222b248909f",
+          "bytes": 2118,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/MIGRATION.md",
-          "sha256": "87022bb0cbc675736fdf6f854195016cf547343ed800f45f6c8d0e2158bbb0f7",
-          "bytes": 1958,
+          "path": "chatgpt-skill-plugins-2.1.0/MIGRATION.md",
+          "sha256": "d2ccc6cd1ff98e157acc8235b6d9365ec5fb7ea584a7baab05dc3242404ee280",
+          "bytes": 3434,
           "mode": 420
         },
         {
-          "path": "chatgpt-skill-plugins-2.0.1/CHANGELOG.md",
-          "sha256": "f0b2379a1e3b9a3316e9dbb7c8aa9ae4a02665fb5b7688a3845c8bcf0e880fdb",
-          "bytes": 2722,
+          "path": "chatgpt-skill-plugins-2.1.0/CHANGELOG.md",
+          "sha256": "a78dffd7f22f5b162e40dee2273d1874b9855069fcbf87b9b11bfa5c5efbfe74",
+          "bytes": 3998,
           "mode": 420
         }
       ]
     },
     {
-      "file": "mermaid-diagrams-2.0.1.zip",
-      "sha256": "aec0f1b5587ecbcbd6d39ae382ef484c802f23dafbbc00e1abc234b20f260e9a",
-      "bytes": 1435767,
+      "file": "mermaid-diagrams-2.1.0.zip",
+      "sha256": "496a8cb9254bec15af0175649b1b33d260cb25aa175468837e01d188c44dba20",
+      "bytes": 1450564,
       "license": "Apache-2.0",
       "inventory": [
         {
           "path": "mermaid-diagrams/.codex-plugin/plugin.json",
-          "sha256": "5cbf27fbb114a131b9442b7e09e0abbdae36e403c46c98d97277c7078efe17fc",
-          "bytes": 1552,
+          "sha256": "eb5cc47d7f770517cfbeea18ee14e7fb37981a0de749361cb1ca0aecd68b41ec",
+          "bytes": 1736,
           "mode": 420
         },
         {
@@ -279,26 +315,38 @@
         },
         {
           "path": "mermaid-diagrams/skills/mermaid-diagrams/SKILL.md",
-          "sha256": "9f2a884e0d9d4c5c7185d6fadcc9b1e4086bf0f783117cf0900e0f092811519c",
-          "bytes": 1803,
+          "sha256": "22a13e249b232824736040247f3c8f78bc3ad477f03850dd24c9a3fa8bf15f26",
+          "bytes": 2575,
           "mode": 420
         },
         {
           "path": "mermaid-diagrams/skills/mermaid-diagrams/agents/openai.yaml",
-          "sha256": "dd12763e7e2ed38ff622049172dd35dd0057c62500ac5826626830e77771c0fe",
-          "bytes": 197,
+          "sha256": "9feb24c5a320a071e11aa3657b54b82f9460d13e700528edebc27a1c399f2a2b",
+          "bytes": 233,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/skills/mermaid-diagrams/references/canonical-v2.schema.json",
+          "sha256": "d204e9c349edcefa5c0d3e6105304026d329e0eb04e6abebc11a49d7ad941a0e",
+          "bytes": 10995,
           "mode": 420
         },
         {
           "path": "mermaid-diagrams/skills/mermaid-diagrams/references/diagram-selection.md",
-          "sha256": "3ddc6ebc0a9ed41fb11cc72e189606352a12738228896bf3c342aa00fcede8e6",
-          "bytes": 1894,
+          "sha256": "ed5ef502af93ca1634d83ecd1f193eae0fc9cd785d89c497f15c9612882ace77",
+          "bytes": 2225,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/skills/mermaid-diagrams/references/edit-markdown-v1.schema.json",
+          "sha256": "d5495a2d49ef362d03f8985878f7194142d17f6bd3e51e2b3bf215ee1424337c",
+          "bytes": 1175,
           "mode": 420
         },
         {
           "path": "mermaid-diagrams/skills/mermaid-diagrams/references/v2-contract.md",
-          "sha256": "3caa0438c0e253973843583dc04eea9989a245d538cb2c0ee60138791d57e0eb",
-          "bytes": 2244,
+          "sha256": "e91be7d031ad0be64c52fddee54f83917aa901fa527817e2de8753dd659c6810",
+          "bytes": 3248,
           "mode": 420
         },
         {
@@ -309,8 +357,8 @@
         },
         {
           "path": "mermaid-diagrams/skills/mermaid-diagrams/scripts/mermaid_tool.py",
-          "sha256": "3b274de817e1b0f3db86022e8aeb72a48e14310e05ea217d7ced9267f70adca7",
-          "bytes": 39715,
+          "sha256": "fcde6e99fa5cd0efc60f94f67726163e1507ed46b4bf33e0adbad97c61fe0552",
+          "bytes": 81687,
           "mode": 420
         },
         {
@@ -351,58 +399,70 @@
         },
         {
           "path": "mermaid-diagrams/SECURITY.md",
-          "sha256": "ca98320fb9914d64b45f30138ec243531ff9edda3e57d78cdbe02b7ade355f51",
-          "bytes": 1219,
+          "sha256": "b6f4768bc0c6198f7a2e11b86bee16519b7a9b14c96f5cfb1f2abd0261644e28",
+          "bytes": 1384,
           "mode": 420
         },
         {
           "path": "mermaid-diagrams/VERSIONING.md",
-          "sha256": "c6036122a1e8480e8e4db0bea701aa9c8382898c6263c1ad859b6d57bb141ffe",
-          "bytes": 1590,
+          "sha256": "f3ef2b57e62f94f944d613a13fef0ee4b6702bdbf13a3bb10c6b8222b248909f",
+          "bytes": 2118,
           "mode": 420
         },
         {
           "path": "mermaid-diagrams/MIGRATION.md",
-          "sha256": "87022bb0cbc675736fdf6f854195016cf547343ed800f45f6c8d0e2158bbb0f7",
-          "bytes": 1958,
+          "sha256": "d2ccc6cd1ff98e157acc8235b6d9365ec5fb7ea584a7baab05dc3242404ee280",
+          "bytes": 3434,
           "mode": 420
         },
         {
           "path": "mermaid-diagrams/CHANGELOG.md",
-          "sha256": "f0b2379a1e3b9a3316e9dbb7c8aa9ae4a02665fb5b7688a3845c8bcf0e880fdb",
-          "bytes": 2722,
+          "sha256": "a78dffd7f22f5b162e40dee2273d1874b9855069fcbf87b9b11bfa5c5efbfe74",
+          "bytes": 3998,
           "mode": 420
         }
       ]
     },
     {
-      "file": "mermaid-diagrams-skill-2.0.1.zip",
-      "sha256": "99758943e0d9284a5d1f9509e4fd7dad873494cb7f6bef1e8107da7d87735451",
-      "bytes": 25170,
+      "file": "mermaid-diagrams-skill-2.1.0.zip",
+      "sha256": "03438748c62e0f5b3952363a124fed88a88ac7c7c05c164ec30e4bab790e9022",
+      "bytes": 38394,
       "license": "Apache-2.0",
       "inventory": [
         {
           "path": "mermaid-diagrams/SKILL.md",
-          "sha256": "9f2a884e0d9d4c5c7185d6fadcc9b1e4086bf0f783117cf0900e0f092811519c",
-          "bytes": 1803,
+          "sha256": "22a13e249b232824736040247f3c8f78bc3ad477f03850dd24c9a3fa8bf15f26",
+          "bytes": 2575,
           "mode": 420
         },
         {
           "path": "mermaid-diagrams/agents/openai.yaml",
-          "sha256": "dd12763e7e2ed38ff622049172dd35dd0057c62500ac5826626830e77771c0fe",
-          "bytes": 197,
+          "sha256": "9feb24c5a320a071e11aa3657b54b82f9460d13e700528edebc27a1c399f2a2b",
+          "bytes": 233,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/references/canonical-v2.schema.json",
+          "sha256": "d204e9c349edcefa5c0d3e6105304026d329e0eb04e6abebc11a49d7ad941a0e",
+          "bytes": 10995,
           "mode": 420
         },
         {
           "path": "mermaid-diagrams/references/diagram-selection.md",
-          "sha256": "3ddc6ebc0a9ed41fb11cc72e189606352a12738228896bf3c342aa00fcede8e6",
-          "bytes": 1894,
+          "sha256": "ed5ef502af93ca1634d83ecd1f193eae0fc9cd785d89c497f15c9612882ace77",
+          "bytes": 2225,
+          "mode": 420
+        },
+        {
+          "path": "mermaid-diagrams/references/edit-markdown-v1.schema.json",
+          "sha256": "d5495a2d49ef362d03f8985878f7194142d17f6bd3e51e2b3bf215ee1424337c",
+          "bytes": 1175,
           "mode": 420
         },
         {
           "path": "mermaid-diagrams/references/v2-contract.md",
-          "sha256": "3caa0438c0e253973843583dc04eea9989a245d538cb2c0ee60138791d57e0eb",
-          "bytes": 2244,
+          "sha256": "e91be7d031ad0be64c52fddee54f83917aa901fa527817e2de8753dd659c6810",
+          "bytes": 3248,
           "mode": 420
         },
         {
@@ -413,8 +473,8 @@
         },
         {
           "path": "mermaid-diagrams/scripts/mermaid_tool.py",
-          "sha256": "3b274de817e1b0f3db86022e8aeb72a48e14310e05ea217d7ced9267f70adca7",
-          "bytes": 39715,
+          "sha256": "fcde6e99fa5cd0efc60f94f67726163e1507ed46b4bf33e0adbad97c61fe0552",
+          "bytes": 81687,
           "mode": 420
         },
         {
@@ -438,15 +498,15 @@
       ]
     },
     {
-      "file": "modelica-projects-2.0.1.zip",
-      "sha256": "8a026d826fdf6ea7cc97875951a4009150acb72a01467551cbcc0dfd5ac6dab2",
-      "bytes": 1588529,
+      "file": "modelica-projects-2.1.0.zip",
+      "sha256": "22182e72a57d93acdefa6f9a5cf8390ba9fb3d31ff44a20bed8491dda3efd722",
+      "bytes": 1606299,
       "license": "Apache-2.0",
       "inventory": [
         {
           "path": "modelica-projects/.codex-plugin/plugin.json",
-          "sha256": "70e27d6a6d0ab29abb558d5ccc287d069a783e8be54ba0d1618f427b24aea962",
-          "bytes": 1631,
+          "sha256": "560c76a586b6d89f02c58231af741329b4b67cf6fa2d240d31d8b7b473937a58",
+          "bytes": 1817,
           "mode": 420
         },
         {
@@ -457,14 +517,26 @@
         },
         {
           "path": "modelica-projects/skills/modelica-projects/SKILL.md",
-          "sha256": "0d4e618cc3b79f2bb07316d816f244c09fb78705c0f75f62405cff1064ac5c14",
-          "bytes": 1779,
+          "sha256": "824448b9d5bc620114f7496217f7a8de645a7f287476832a75e120b8886bea97",
+          "bytes": 2724,
           "mode": 420
         },
         {
           "path": "modelica-projects/skills/modelica-projects/agents/openai.yaml",
-          "sha256": "29e765cfeddf58cbc9371fa12536df3b6b47b280dce029803261fd97fde22be7",
-          "bytes": 210,
+          "sha256": "ac8e474588df69a1467d674e137c2d185edc0b0aa1856e459d9b73085e7ca04c",
+          "bytes": 262,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/skills/modelica-projects/references/canonical-v2.schema.json",
+          "sha256": "40fb225be6986620a5c2de775eaf6f5c1cbaff2d7b9d74ee3e7030cb717939f2",
+          "bytes": 8834,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/skills/modelica-projects/references/edit-v1.schema.json",
+          "sha256": "24dc236e9e110fe4d14d97467b5986e2aabaee944223efb2be3b09f1b363b72c",
+          "bytes": 1922,
           "mode": 420
         },
         {
@@ -475,8 +547,8 @@
         },
         {
           "path": "modelica-projects/skills/modelica-projects/references/v2-contract.md",
-          "sha256": "df6b6d99dc9df8cfdb9f984ca7a7cac0e9d3ee42a6deb0efe28c858f32201401",
-          "bytes": 1359,
+          "sha256": "68a1c32c737802e956d38d88d0390fa6cbb6d192e8fd0cd7136ec8e79d86ab6f",
+          "bytes": 3490,
           "mode": 420
         },
         {
@@ -487,8 +559,8 @@
         },
         {
           "path": "modelica-projects/skills/modelica-projects/scripts/modelica_tool.py",
-          "sha256": "9f65cc397e05abd90dca0bfa9ee5fe3fef1899546241615a884425702ef04b1a",
-          "bytes": 38219,
+          "sha256": "a25e55ea5ad1119cc9a9dafd4c37f103572f6a85b051b08e1605675d3833cbe4",
+          "bytes": 87694,
           "mode": 420
         },
         {
@@ -529,46 +601,58 @@
         },
         {
           "path": "modelica-projects/SECURITY.md",
-          "sha256": "ca98320fb9914d64b45f30138ec243531ff9edda3e57d78cdbe02b7ade355f51",
-          "bytes": 1219,
+          "sha256": "b6f4768bc0c6198f7a2e11b86bee16519b7a9b14c96f5cfb1f2abd0261644e28",
+          "bytes": 1384,
           "mode": 420
         },
         {
           "path": "modelica-projects/VERSIONING.md",
-          "sha256": "c6036122a1e8480e8e4db0bea701aa9c8382898c6263c1ad859b6d57bb141ffe",
-          "bytes": 1590,
+          "sha256": "f3ef2b57e62f94f944d613a13fef0ee4b6702bdbf13a3bb10c6b8222b248909f",
+          "bytes": 2118,
           "mode": 420
         },
         {
           "path": "modelica-projects/MIGRATION.md",
-          "sha256": "87022bb0cbc675736fdf6f854195016cf547343ed800f45f6c8d0e2158bbb0f7",
-          "bytes": 1958,
+          "sha256": "d2ccc6cd1ff98e157acc8235b6d9365ec5fb7ea584a7baab05dc3242404ee280",
+          "bytes": 3434,
           "mode": 420
         },
         {
           "path": "modelica-projects/CHANGELOG.md",
-          "sha256": "f0b2379a1e3b9a3316e9dbb7c8aa9ae4a02665fb5b7688a3845c8bcf0e880fdb",
-          "bytes": 2722,
+          "sha256": "a78dffd7f22f5b162e40dee2273d1874b9855069fcbf87b9b11bfa5c5efbfe74",
+          "bytes": 3998,
           "mode": 420
         }
       ]
     },
     {
-      "file": "modelica-projects-skill-2.0.1.zip",
-      "sha256": "eaf613336e5e4fc4f220d4aaf69368294a3e56eacc1111935ec05869883820e3",
-      "bytes": 25388,
+      "file": "modelica-projects-skill-2.1.0.zip",
+      "sha256": "d935cd920c1203a1496d7af4d0f0943edf826bf45e37b30e53d1e7793e9019c5",
+      "bytes": 41560,
       "license": "Apache-2.0",
       "inventory": [
         {
           "path": "modelica-projects/SKILL.md",
-          "sha256": "0d4e618cc3b79f2bb07316d816f244c09fb78705c0f75f62405cff1064ac5c14",
-          "bytes": 1779,
+          "sha256": "824448b9d5bc620114f7496217f7a8de645a7f287476832a75e120b8886bea97",
+          "bytes": 2724,
           "mode": 420
         },
         {
           "path": "modelica-projects/agents/openai.yaml",
-          "sha256": "29e765cfeddf58cbc9371fa12536df3b6b47b280dce029803261fd97fde22be7",
-          "bytes": 210,
+          "sha256": "ac8e474588df69a1467d674e137c2d185edc0b0aa1856e459d9b73085e7ca04c",
+          "bytes": 262,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/references/canonical-v2.schema.json",
+          "sha256": "40fb225be6986620a5c2de775eaf6f5c1cbaff2d7b9d74ee3e7030cb717939f2",
+          "bytes": 8834,
+          "mode": 420
+        },
+        {
+          "path": "modelica-projects/references/edit-v1.schema.json",
+          "sha256": "24dc236e9e110fe4d14d97467b5986e2aabaee944223efb2be3b09f1b363b72c",
+          "bytes": 1922,
           "mode": 420
         },
         {
@@ -579,8 +663,8 @@
         },
         {
           "path": "modelica-projects/references/v2-contract.md",
-          "sha256": "df6b6d99dc9df8cfdb9f984ca7a7cac0e9d3ee42a6deb0efe28c858f32201401",
-          "bytes": 1359,
+          "sha256": "68a1c32c737802e956d38d88d0390fa6cbb6d192e8fd0cd7136ec8e79d86ab6f",
+          "bytes": 3490,
           "mode": 420
         },
         {
@@ -591,8 +675,8 @@
         },
         {
           "path": "modelica-projects/scripts/modelica_tool.py",
-          "sha256": "9f65cc397e05abd90dca0bfa9ee5fe3fef1899546241615a884425702ef04b1a",
-          "bytes": 38219,
+          "sha256": "a25e55ea5ad1119cc9a9dafd4c37f103572f6a85b051b08e1605675d3833cbe4",
+          "bytes": 87694,
           "mode": 420
         },
         {
@@ -616,15 +700,15 @@
       ]
     },
     {
-      "file": "portable-mindmaps-2.0.1.zip",
-      "sha256": "bd756d289e0471db141348ca8fe64c44081191bbce65895deff1ccae2c150f84",
-      "bytes": 1406401,
+      "file": "portable-mindmaps-2.1.0.zip",
+      "sha256": "0d91aab373eff91575bef7e4d386565dbe43c08b4250fdb0dcce4e87e7194439",
+      "bytes": 1418996,
       "license": "Apache-2.0",
       "inventory": [
         {
           "path": "portable-mindmaps/.codex-plugin/plugin.json",
-          "sha256": "433794d1c3fc67a2c079ca6a119d975deae982da371a0caf8b995a235f8e0b32",
-          "bytes": 1574,
+          "sha256": "247ec939856e4f1f0b9422960bd5b74e1b2751f053ecbab31e0047fd251fc18c",
+          "bytes": 1707,
           "mode": 420
         },
         {
@@ -635,32 +719,44 @@
         },
         {
           "path": "portable-mindmaps/skills/portable-mindmaps/SKILL.md",
-          "sha256": "dfc5a76b14b97def5adb976e5257bb090c1f983a42d63c4ed7e000b1c08068c9",
-          "bytes": 1811,
+          "sha256": "657d03e4ab2da33befab312aeeb33ef2ee18707da87a8f5a2cb0a0d3a2dd08a8",
+          "bytes": 2410,
           "mode": 420
         },
         {
           "path": "portable-mindmaps/skills/portable-mindmaps/agents/openai.yaml",
-          "sha256": "eda652b2b1ba3c9fa0863c5ba3f420e2bc8edba0c8495a21d316e199142411b6",
-          "bytes": 199,
+          "sha256": "6d7c7398e1c5bc40312615171bbd6d0ab88a4ce0b95df91b9507f995713aa21c",
+          "bytes": 256,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/skills/portable-mindmaps/references/canonical-v2.schema.json",
+          "sha256": "0c72831012ee6dc4f4dad51b970c50d19b088cb6e5063d19236d39b0d7044004",
+          "bytes": 1923,
           "mode": 420
         },
         {
           "path": "portable-mindmaps/skills/portable-mindmaps/references/format-compatibility.md",
-          "sha256": "ef4c1febdfe2eb8fb09089bb59d8ee5a9c2165a7eec4ef64d2f0f7387c676c01",
-          "bytes": 974,
+          "sha256": "2382f0c9e74cfb9b9430e5fa7ba2758cdc3a54c7b3f22959a9aeebef1456c830",
+          "bytes": 1596,
           "mode": 420
         },
         {
           "path": "portable-mindmaps/skills/portable-mindmaps/references/mindmap-contract.md",
-          "sha256": "2edc393fa82ce4fbd2f06b79fc352a734f3ae7f71e8f9d639bfe2a8ff9c48bc2",
-          "bytes": 1136,
+          "sha256": "673ddb8af73356cbb55a9649b52c082ec1044979ee76d94f67a3c5dab2983e17",
+          "bytes": 1327,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/skills/portable-mindmaps/references/reorder-v1.schema.json",
+          "sha256": "8f583c8764579d6278eeeeca224a0b8b719fa6c873ec4bee044381f1c158501b",
+          "bytes": 835,
           "mode": 420
         },
         {
           "path": "portable-mindmaps/skills/portable-mindmaps/references/v2-contract.md",
-          "sha256": "9f46004b572a79a04e4e58e0b3d23b468076351a8e7e5ef096a07ad6a06dac80",
-          "bytes": 1718,
+          "sha256": "22a8ce1cb0e52844bfca84e7aafa21ffee751dedae770f96ee5749a4a3648d76",
+          "bytes": 2823,
           "mode": 420
         },
         {
@@ -671,8 +767,8 @@
         },
         {
           "path": "portable-mindmaps/skills/portable-mindmaps/scripts/mindmap_tool.py",
-          "sha256": "f5064c79e27a04e0e30ba85af04d7ae0fe5e4dbaf6e39e6624d424c8d4bc08b1",
-          "bytes": 29042,
+          "sha256": "40fa5c551ab12dfeefa495cf1745857753851ede7eff555a65355f7d36166bfd",
+          "bytes": 67649,
           "mode": 420
         },
         {
@@ -707,64 +803,76 @@
         },
         {
           "path": "portable-mindmaps/SECURITY.md",
-          "sha256": "ca98320fb9914d64b45f30138ec243531ff9edda3e57d78cdbe02b7ade355f51",
-          "bytes": 1219,
+          "sha256": "b6f4768bc0c6198f7a2e11b86bee16519b7a9b14c96f5cfb1f2abd0261644e28",
+          "bytes": 1384,
           "mode": 420
         },
         {
           "path": "portable-mindmaps/VERSIONING.md",
-          "sha256": "c6036122a1e8480e8e4db0bea701aa9c8382898c6263c1ad859b6d57bb141ffe",
-          "bytes": 1590,
+          "sha256": "f3ef2b57e62f94f944d613a13fef0ee4b6702bdbf13a3bb10c6b8222b248909f",
+          "bytes": 2118,
           "mode": 420
         },
         {
           "path": "portable-mindmaps/MIGRATION.md",
-          "sha256": "87022bb0cbc675736fdf6f854195016cf547343ed800f45f6c8d0e2158bbb0f7",
-          "bytes": 1958,
+          "sha256": "d2ccc6cd1ff98e157acc8235b6d9365ec5fb7ea584a7baab05dc3242404ee280",
+          "bytes": 3434,
           "mode": 420
         },
         {
           "path": "portable-mindmaps/CHANGELOG.md",
-          "sha256": "f0b2379a1e3b9a3316e9dbb7c8aa9ae4a02665fb5b7688a3845c8bcf0e880fdb",
-          "bytes": 2722,
+          "sha256": "a78dffd7f22f5b162e40dee2273d1874b9855069fcbf87b9b11bfa5c5efbfe74",
+          "bytes": 3998,
           "mode": 420
         }
       ]
     },
     {
-      "file": "portable-mindmaps-skill-2.0.1.zip",
-      "sha256": "fdf001fc4489df36457d45482c89a10b0c089bbd8b09ec140430271b8787a6f9",
-      "bytes": 20979,
+      "file": "portable-mindmaps-skill-2.1.0.zip",
+      "sha256": "4adf8d949a8c8a9c05ed068f787e8ec116620a90d2357b9418cb948dcba94d3d",
+      "bytes": 32017,
       "license": "Apache-2.0",
       "inventory": [
         {
           "path": "portable-mindmaps/SKILL.md",
-          "sha256": "dfc5a76b14b97def5adb976e5257bb090c1f983a42d63c4ed7e000b1c08068c9",
-          "bytes": 1811,
+          "sha256": "657d03e4ab2da33befab312aeeb33ef2ee18707da87a8f5a2cb0a0d3a2dd08a8",
+          "bytes": 2410,
           "mode": 420
         },
         {
           "path": "portable-mindmaps/agents/openai.yaml",
-          "sha256": "eda652b2b1ba3c9fa0863c5ba3f420e2bc8edba0c8495a21d316e199142411b6",
-          "bytes": 199,
+          "sha256": "6d7c7398e1c5bc40312615171bbd6d0ab88a4ce0b95df91b9507f995713aa21c",
+          "bytes": 256,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/references/canonical-v2.schema.json",
+          "sha256": "0c72831012ee6dc4f4dad51b970c50d19b088cb6e5063d19236d39b0d7044004",
+          "bytes": 1923,
           "mode": 420
         },
         {
           "path": "portable-mindmaps/references/format-compatibility.md",
-          "sha256": "ef4c1febdfe2eb8fb09089bb59d8ee5a9c2165a7eec4ef64d2f0f7387c676c01",
-          "bytes": 974,
+          "sha256": "2382f0c9e74cfb9b9430e5fa7ba2758cdc3a54c7b3f22959a9aeebef1456c830",
+          "bytes": 1596,
           "mode": 420
         },
         {
           "path": "portable-mindmaps/references/mindmap-contract.md",
-          "sha256": "2edc393fa82ce4fbd2f06b79fc352a734f3ae7f71e8f9d639bfe2a8ff9c48bc2",
-          "bytes": 1136,
+          "sha256": "673ddb8af73356cbb55a9649b52c082ec1044979ee76d94f67a3c5dab2983e17",
+          "bytes": 1327,
+          "mode": 420
+        },
+        {
+          "path": "portable-mindmaps/references/reorder-v1.schema.json",
+          "sha256": "8f583c8764579d6278eeeeca224a0b8b719fa6c873ec4bee044381f1c158501b",
+          "bytes": 835,
           "mode": 420
         },
         {
           "path": "portable-mindmaps/references/v2-contract.md",
-          "sha256": "9f46004b572a79a04e4e58e0b3d23b468076351a8e7e5ef096a07ad6a06dac80",
-          "bytes": 1718,
+          "sha256": "22a8ce1cb0e52844bfca84e7aafa21ffee751dedae770f96ee5749a4a3648d76",
+          "bytes": 2823,
           "mode": 420
         },
         {
@@ -775,8 +883,8 @@
         },
         {
           "path": "portable-mindmaps/scripts/mindmap_tool.py",
-          "sha256": "f5064c79e27a04e0e30ba85af04d7ae0fe5e4dbaf6e39e6624d424c8d4bc08b1",
-          "bytes": 29042,
+          "sha256": "40fa5c551ab12dfeefa495cf1745857753851ede7eff555a65355f7d36166bfd",
+          "bytes": 67649,
           "mode": 420
         },
         {
@@ -797,15 +905,15 @@
   "softwareInventory": [
     {
       "name": "mermaid-diagrams",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "license": "Apache-2.0",
       "contractVersion": "2",
       "evidenceLevel": "static",
       "files": [
         {
           "path": ".codex-plugin/plugin.json",
-          "sha256": "5cbf27fbb114a131b9442b7e09e0abbdae36e403c46c98d97277c7078efe17fc",
-          "bytes": 1552
+          "sha256": "eb5cc47d7f770517cfbeea18ee14e7fb37981a0de749361cb1ca0aecd68b41ec",
+          "bytes": 1736
         },
         {
           "path": "assets/icon.png",
@@ -814,23 +922,33 @@
         },
         {
           "path": "skills/mermaid-diagrams/SKILL.md",
-          "sha256": "9f2a884e0d9d4c5c7185d6fadcc9b1e4086bf0f783117cf0900e0f092811519c",
-          "bytes": 1803
+          "sha256": "22a13e249b232824736040247f3c8f78bc3ad477f03850dd24c9a3fa8bf15f26",
+          "bytes": 2575
         },
         {
           "path": "skills/mermaid-diagrams/agents/openai.yaml",
-          "sha256": "dd12763e7e2ed38ff622049172dd35dd0057c62500ac5826626830e77771c0fe",
-          "bytes": 197
+          "sha256": "9feb24c5a320a071e11aa3657b54b82f9460d13e700528edebc27a1c399f2a2b",
+          "bytes": 233
+        },
+        {
+          "path": "skills/mermaid-diagrams/references/canonical-v2.schema.json",
+          "sha256": "d204e9c349edcefa5c0d3e6105304026d329e0eb04e6abebc11a49d7ad941a0e",
+          "bytes": 10995
         },
         {
           "path": "skills/mermaid-diagrams/references/diagram-selection.md",
-          "sha256": "3ddc6ebc0a9ed41fb11cc72e189606352a12738228896bf3c342aa00fcede8e6",
-          "bytes": 1894
+          "sha256": "ed5ef502af93ca1634d83ecd1f193eae0fc9cd785d89c497f15c9612882ace77",
+          "bytes": 2225
+        },
+        {
+          "path": "skills/mermaid-diagrams/references/edit-markdown-v1.schema.json",
+          "sha256": "d5495a2d49ef362d03f8985878f7194142d17f6bd3e51e2b3bf215ee1424337c",
+          "bytes": 1175
         },
         {
           "path": "skills/mermaid-diagrams/references/v2-contract.md",
-          "sha256": "3caa0438c0e253973843583dc04eea9989a245d538cb2c0ee60138791d57e0eb",
-          "bytes": 2244
+          "sha256": "e91be7d031ad0be64c52fddee54f83917aa901fa527817e2de8753dd659c6810",
+          "bytes": 3248
         },
         {
           "path": "skills/mermaid-diagrams/scripts/create_mermaid.py",
@@ -839,8 +957,8 @@
         },
         {
           "path": "skills/mermaid-diagrams/scripts/mermaid_tool.py",
-          "sha256": "3b274de817e1b0f3db86022e8aeb72a48e14310e05ea217d7ced9267f70adca7",
-          "bytes": 39715
+          "sha256": "fcde6e99fa5cd0efc60f94f67726163e1507ed46b4bf33e0adbad97c61fe0552",
+          "bytes": 81687
         },
         {
           "path": "skills/mermaid-diagrams/scripts/validate_mermaid.py",
@@ -851,15 +969,15 @@
     },
     {
       "name": "modelica-projects",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "license": "Apache-2.0",
       "contractVersion": "2",
       "evidenceLevel": "static",
       "files": [
         {
           "path": ".codex-plugin/plugin.json",
-          "sha256": "70e27d6a6d0ab29abb558d5ccc287d069a783e8be54ba0d1618f427b24aea962",
-          "bytes": 1631
+          "sha256": "560c76a586b6d89f02c58231af741329b4b67cf6fa2d240d31d8b7b473937a58",
+          "bytes": 1817
         },
         {
           "path": "assets/icon.png",
@@ -868,13 +986,23 @@
         },
         {
           "path": "skills/modelica-projects/SKILL.md",
-          "sha256": "0d4e618cc3b79f2bb07316d816f244c09fb78705c0f75f62405cff1064ac5c14",
-          "bytes": 1779
+          "sha256": "824448b9d5bc620114f7496217f7a8de645a7f287476832a75e120b8886bea97",
+          "bytes": 2724
         },
         {
           "path": "skills/modelica-projects/agents/openai.yaml",
-          "sha256": "29e765cfeddf58cbc9371fa12536df3b6b47b280dce029803261fd97fde22be7",
-          "bytes": 210
+          "sha256": "ac8e474588df69a1467d674e137c2d185edc0b0aa1856e459d9b73085e7ca04c",
+          "bytes": 262
+        },
+        {
+          "path": "skills/modelica-projects/references/canonical-v2.schema.json",
+          "sha256": "40fb225be6986620a5c2de775eaf6f5c1cbaff2d7b9d74ee3e7030cb717939f2",
+          "bytes": 8834
+        },
+        {
+          "path": "skills/modelica-projects/references/edit-v1.schema.json",
+          "sha256": "24dc236e9e110fe4d14d97467b5986e2aabaee944223efb2be3b09f1b363b72c",
+          "bytes": 1922
         },
         {
           "path": "skills/modelica-projects/references/project-contract.md",
@@ -883,8 +1011,8 @@
         },
         {
           "path": "skills/modelica-projects/references/v2-contract.md",
-          "sha256": "df6b6d99dc9df8cfdb9f984ca7a7cac0e9d3ee42a6deb0efe28c858f32201401",
-          "bytes": 1359
+          "sha256": "68a1c32c737802e956d38d88d0390fa6cbb6d192e8fd0cd7136ec8e79d86ab6f",
+          "bytes": 3490
         },
         {
           "path": "skills/modelica-projects/scripts/create_modelica_project.py",
@@ -893,8 +1021,8 @@
         },
         {
           "path": "skills/modelica-projects/scripts/modelica_tool.py",
-          "sha256": "9f65cc397e05abd90dca0bfa9ee5fe3fef1899546241615a884425702ef04b1a",
-          "bytes": 38219
+          "sha256": "a25e55ea5ad1119cc9a9dafd4c37f103572f6a85b051b08e1605675d3833cbe4",
+          "bytes": 87694
         },
         {
           "path": "skills/modelica-projects/scripts/static_check_modelica.py",
@@ -905,15 +1033,15 @@
     },
     {
       "name": "portable-mindmaps",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "license": "Apache-2.0",
       "contractVersion": "2",
       "evidenceLevel": "static",
       "files": [
         {
           "path": ".codex-plugin/plugin.json",
-          "sha256": "433794d1c3fc67a2c079ca6a119d975deae982da371a0caf8b995a235f8e0b32",
-          "bytes": 1574
+          "sha256": "247ec939856e4f1f0b9422960bd5b74e1b2751f053ecbab31e0047fd251fc18c",
+          "bytes": 1707
         },
         {
           "path": "assets/icon.png",
@@ -922,28 +1050,38 @@
         },
         {
           "path": "skills/portable-mindmaps/SKILL.md",
-          "sha256": "dfc5a76b14b97def5adb976e5257bb090c1f983a42d63c4ed7e000b1c08068c9",
-          "bytes": 1811
+          "sha256": "657d03e4ab2da33befab312aeeb33ef2ee18707da87a8f5a2cb0a0d3a2dd08a8",
+          "bytes": 2410
         },
         {
           "path": "skills/portable-mindmaps/agents/openai.yaml",
-          "sha256": "eda652b2b1ba3c9fa0863c5ba3f420e2bc8edba0c8495a21d316e199142411b6",
-          "bytes": 199
+          "sha256": "6d7c7398e1c5bc40312615171bbd6d0ab88a4ce0b95df91b9507f995713aa21c",
+          "bytes": 256
+        },
+        {
+          "path": "skills/portable-mindmaps/references/canonical-v2.schema.json",
+          "sha256": "0c72831012ee6dc4f4dad51b970c50d19b088cb6e5063d19236d39b0d7044004",
+          "bytes": 1923
         },
         {
           "path": "skills/portable-mindmaps/references/format-compatibility.md",
-          "sha256": "ef4c1febdfe2eb8fb09089bb59d8ee5a9c2165a7eec4ef64d2f0f7387c676c01",
-          "bytes": 974
+          "sha256": "2382f0c9e74cfb9b9430e5fa7ba2758cdc3a54c7b3f22959a9aeebef1456c830",
+          "bytes": 1596
         },
         {
           "path": "skills/portable-mindmaps/references/mindmap-contract.md",
-          "sha256": "2edc393fa82ce4fbd2f06b79fc352a734f3ae7f71e8f9d639bfe2a8ff9c48bc2",
-          "bytes": 1136
+          "sha256": "673ddb8af73356cbb55a9649b52c082ec1044979ee76d94f67a3c5dab2983e17",
+          "bytes": 1327
+        },
+        {
+          "path": "skills/portable-mindmaps/references/reorder-v1.schema.json",
+          "sha256": "8f583c8764579d6278eeeeca224a0b8b719fa6c873ec4bee044381f1c158501b",
+          "bytes": 835
         },
         {
           "path": "skills/portable-mindmaps/references/v2-contract.md",
-          "sha256": "9f46004b572a79a04e4e58e0b3d23b468076351a8e7e5ef096a07ad6a06dac80",
-          "bytes": 1718
+          "sha256": "22a8ce1cb0e52844bfca84e7aafa21ffee751dedae770f96ee5749a4a3648d76",
+          "bytes": 2823
         },
         {
           "path": "skills/portable-mindmaps/scripts/create_mindmap.py",
@@ -952,8 +1090,8 @@
         },
         {
           "path": "skills/portable-mindmaps/scripts/mindmap_tool.py",
-          "sha256": "f5064c79e27a04e0e30ba85af04d7ae0fe5e4dbaf6e39e6624d424c8d4bc08b1",
-          "bytes": 29042
+          "sha256": "40fa5c551ab12dfeefa495cf1745857753851ede7eff555a65355f7d36166bfd",
+          "bytes": 67649
         }
       ]
     }
@@ -962,8 +1100,8 @@
   "publicFiles": [
     {
       "file": "README.md",
-      "sha256": "ee0daf41d25bc86d0ee224985c93395db141daee269808f2c811368447ddbd6b",
-      "bytes": 2153,
+      "sha256": "e26fd112326055a3f7f79c0bd29d5868d4986f229739045925b0a23a7a140741",
+      "bytes": 2151,
       "license": "Apache-2.0"
     },
     {
@@ -998,26 +1136,26 @@
     },
     {
       "file": "SECURITY.md",
-      "sha256": "ca98320fb9914d64b45f30138ec243531ff9edda3e57d78cdbe02b7ade355f51",
-      "bytes": 1219,
+      "sha256": "b6f4768bc0c6198f7a2e11b86bee16519b7a9b14c96f5cfb1f2abd0261644e28",
+      "bytes": 1384,
       "license": "Apache-2.0"
     },
     {
       "file": "VERSIONING.md",
-      "sha256": "c6036122a1e8480e8e4db0bea701aa9c8382898c6263c1ad859b6d57bb141ffe",
-      "bytes": 1590,
+      "sha256": "f3ef2b57e62f94f944d613a13fef0ee4b6702bdbf13a3bb10c6b8222b248909f",
+      "bytes": 2118,
       "license": "Apache-2.0"
     },
     {
       "file": "MIGRATION.md",
-      "sha256": "87022bb0cbc675736fdf6f854195016cf547343ed800f45f6c8d0e2158bbb0f7",
-      "bytes": 1958,
+      "sha256": "d2ccc6cd1ff98e157acc8235b6d9365ec5fb7ea584a7baab05dc3242404ee280",
+      "bytes": 3434,
       "license": "Apache-2.0"
     },
     {
       "file": "CHANGELOG.md",
-      "sha256": "f0b2379a1e3b9a3316e9dbb7c8aa9ae4a02665fb5b7688a3845c8bcf0e880fdb",
-      "bytes": 2722,
+      "sha256": "a78dffd7f22f5b162e40dee2273d1874b9855069fcbf87b9b11bfa5c5efbfe74",
+      "bytes": 3998,
       "license": "Apache-2.0"
     }
   ]

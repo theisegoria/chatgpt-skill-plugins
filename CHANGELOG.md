@@ -2,6 +2,15 @@
 
 This project follows [Semantic Versioning](VERSIONING.md).
 
+## 2.1.0 - 2026-08-26
+
+- Added strict, published JSON Schemas and consistent machine-readable diagnostics, changes, outputs, losses, hashes, and evidence reports across all three skills.
+- Added Mermaid architecture, Gantt, timeline, and Kanban builders targeting the documented 11.16.1 profile; accessibility metadata; hash-guarded, byte-preserving Markdown fence edits; and safe structural SVG/HTML previews.
+- Added source-preserving Modelica package edits, a comment/string-aware authoring lexer, supported visual-metadata recovery, topology-aware layout and boundary routing, richer standard graphical primitives, structural previews, and an explicit adapter for an already-installed `omc`.
+- Added rich Markdown round trips, GraphML and generated-Mermaid imports, FreeMind cross-links, safe stable-ID merge, diff, explicit reorder, duplicate diagnostics, and three deterministic structural mind-map preview layouts.
+- Preserved offline, hosting-free, telemetry-free operation and kept native rendering, compilation, simulation, and third-party application import outside the guaranteed evidence boundary.
+- Fixed security audit findings in mind-map Mermaid label emission and Modelica compiler-target validation, and rejected recursive source-to-output Modelica edits.
+
 ## 2.0.1 - 2026-08-26
 
 - Fixed Modelica visual generation on Python 3.11 and hardened graphical-annotation replacement, visual geometry, endpoint, metadata, colour, and string validation.
